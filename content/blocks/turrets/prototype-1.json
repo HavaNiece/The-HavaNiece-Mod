@@ -1,57 +1,63 @@
 {
-  "type": "ItemTurret",
-  "size": 5,
-  "squareSprite": false,
-  "health": 1000,
-  "maxAmmo": 150,
-  "ammoPerShot": 5,
-  "reload": 90,
-  "range": 480,
-  "recoil": 5,
-  "shake": 12,
-  "rotateSpeed": 1,
-  "shootSound": "railgun",
-  "drawer": {
-    "type": "drawTurret",
-    "basePrefix": "genesux-"
-  },
-"ammoTypes": {
-"tungsten": {
-"damage": 500,
-"buildingDamageMultiplier": 5.0,
-"speed": 9.5,
-"width": 18,
-"height": 24,
-"sprite": "mine-bullet",
-"collidesGround": false,
-"collidesTiles": false,
-"shootEffect": {
-"type": "multiEffect",
-"effects": ["colorSparkBig", "shootBig2"]
-},
-"smokeEffect": "shootSmokeDisperse",
-"backColor": "87ceeb",
-"trailColor": "87ceeb",
-"hitColor": "87ceeb",
-"trailLength": 5,
-"trailWidth": 2.5,
-"trailChance": 0.44,
-"ammoMultiplier": 3,
-"pierceArmor": true,
-"lifetime": 45,
-"rotationOffset": 90,
-"trailRotation": "true",
-"trailEffect": "disperseTrail",
-"hitEffect": {
-"type": "multiEffect",
-"effects": ["colorSparkBig", "hitBulletColor"]
-},
-      }
-  },
-  "requirements": [
-    "copper/520",
-    "lead/550"
-  ],
-  "category": "turret",
-  "research": "duo"
+    "type": "ItemTurret",
+    "size": 5,
+    "squareSprite": false,
+    "health": 1000,
+    "maxAmmo": 150,
+    "ammoPerShot": 5,
+    "reload": 90,
+    "range": 480,
+    "recoil": 5,
+    "shake": 12,
+    "rotateSpeed": 1,
+    "shootSound": "railgun",
+    "drawer": {
+        "type": "drawTurret",
+        "basePrefix": "genesux-"
+    },
+    "ammoTypes": {
+        "tungsten": {
+            "damage": 500,
+            "buildingDamageMultiplier": 5,
+            "speed": 9.5,
+            "width": 18,
+            "height": 24,
+            "sprite": "mine-bullet",
+            "collidesGround": false,
+            "collidesTiles": false,
+            "shootEffect": {
+                "type": "multiEffect",
+                "effects": [
+                    "colorSparkBig",
+                    "shootBig2"
+                ]
+            },
+            "smokeEffect": "shootSmokeDisperse",
+            "backColor": "87ceeb",
+            "trailColor": "87ceeb",
+            "hitColor": "87ceeb",
+            "trailLength": 5,
+            "trailWidth": 2.5,
+            "trailChance": 0.44,
+            "ammoMultiplier": 3,
+            "pierceArmor": true,
+            "lifetime": 45,
+            "rotationOffset": 90,
+            "trailRotation": "true",
+            "trailEffect": "disperseTrail",
+            "hitEffect": {
+                "type": "multiEffect",
+                "effects": [
+                    "colorSparkBig",
+                    "hitBulletColor"
+                ]
+            }
+        },
+        "requirements": [
+            "copper/520",
+            "lead/550"
+        ],
+        "category": "turret",
+        "reseach": "duo"
+    }
 }
