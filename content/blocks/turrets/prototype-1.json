@@ -1,39 +1,58 @@
 {
-	"size": 9,
-	"health": 200,
-	"range": 300,
-	"reload": 180,
-	"coolantMultiplier": 0.6,
-	"shootCone": 40,
-	"shootDuration": 320,
-	"powerUse": 39,
-	"shootShake": 4,
-	"firingMoveFract": 0.1,
-	"shootEffect": "shootBigSmoke2",
-	"recoil": 8,
-	"localizedName": "AC Phoenix Mk-2",
-	"description": "The upgraded version of Calamity, putting it behind defences or production is not recommended, can only use Tier-3 Coolant due to its design.",
-	"cooldown": 0.012,
-	"hasPower": true,
-	"hasLiquids": true,
-	"shootSound": "laser-big-extended",
-	"heatColor": "ffffff",
-	"rotatespeed": 1.1,
-	"activeSound": "phoenix-sound",
-	"activeSoundVolume": 5,
-	"expanded": true,
-	"consumes": {
-		"liquid": {
-			"liquid": "water",
-			"update": false,
-			"amount": 1.2
-		}
-	},
-	"requirements": [
-		{ "item": "copper", "amount": 200 },
-		{ "item": "lead", "amount": 500 },
-		{ "item": "graphite", "amount": 75 }
-	],
-	"category": "turret",
-	"research": "duo",
+  "type": "ItemTurret",
+  "size": 5,
+  "squareSprite": false,
+  "health": 1000,
+  "maxAmmo": 150,
+  "ammoPerShot": 5,
+  "reload": 90,
+  "range": 480,
+  "recoil": 5,
+  "shake": 12,
+  "rotateSpeed": 1,
+  "shootSound": "railgun",
+  "drawer": {
+    "type": "drawTurret",
+    "basePrefix": "genesux-"
+  },
+"ammoTypes": {
+"tungsten": {
+"damage": 500,
+"buildingDamageMultiplier": 5.0,
+"speed": 9.5,
+"width": 18,
+"height": 24,
+"sprite": "mine-bullet",
+"collidesGround": false,
+"collidesTiles": false,
+"shootEffect": {
+"type": "multiEffect",
+"effects": ["colorSparkBig", "shootBig2"]
+},
+"smokeEffect": "shootSmokeDisperse",
+"backColor": "87ceeb",
+"trailColor": "87ceeb",
+"hitColor": "87ceeb",
+"trailLength": 5,
+"trailWidth": 2.5,
+"trailChance": 0.44,
+"ammoMultiplier": 3,
+"pierceArmor": true,
+"lifetime": 45,
+"rotationOffset": 90,
+"trailRotation": "true",
+"trailEffect": "disperseTrail",
+"hitEffect": {
+"type": "multiEffect",
+"effects": ["colorSparkBig", "hitBulletColor"]
+},
+      }
+    }
+  },
+  "requirements": [
+    "copper/520",
+    "lead/550"
+  ],
+  "category": "turret",
+  "research": "duo"
 }
