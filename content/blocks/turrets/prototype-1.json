@@ -26,10 +26,6 @@
 "collidesTiles": false,
 "rangeChange": 150
         },
-"requirements": [
-"copper/1",
-"lead/1"
-],
         "category": "turret",
         "reseach": "duo"
     }
