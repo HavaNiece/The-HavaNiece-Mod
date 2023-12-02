@@ -47,7 +47,6 @@
 "effects": ["colorSparkBig", "hitBulletColor"]
 },
       }
-    }
   },
   "requirements": [
     "copper/520",
