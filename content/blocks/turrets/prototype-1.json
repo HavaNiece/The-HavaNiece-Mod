@@ -10,8 +10,7 @@
     "recoil": 5,
     "shake": 12,
     "rotateSpeed": 1,
-    "shootSound": "railgun"
-    },
+    "shootSound": "railgun",
 
 "ammoTypes": {
 "copper": {
