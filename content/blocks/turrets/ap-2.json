@@ -10,7 +10,7 @@ inaccuracy: 4
 recoilAmount: 50
 ammoUseEffect: casing1
 shootCone: 20
-rotateSpeed: 0.016
+rotateSpeed: 16
 range: 480
 "coolantMultiplier": 60,
   "consumes": {
