@@ -53,10 +53,10 @@
                 ]
             }
         },
-        "requirements": [
-            "copper/520",
-            "lead/550"
-        ],
+"requirements": [
+"copper/1",
+"lead/1"
+],
         "category": "turret",
         "reseach": "duo"
     }
