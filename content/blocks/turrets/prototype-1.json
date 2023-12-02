@@ -10,10 +10,7 @@
     "recoil": 5,
     "shake": 12,
     "rotateSpeed": 1,
-    "shootSound": "railgun",
-    "drawer": {
-        "type": "drawTurret",
-        "basePrefix": "genesux-"
+    "shootSound": "railgun"
     },
 
 "ammoTypes": {
@@ -25,31 +22,10 @@
 "width": 11,
 "height": 24,
 "shrinkY": 0.3,
-"backSprite": "large-bomb-back",
 "sprite": "mine-bullet",
 "collidesGround": false,
 "collidesTiles": false,
-"rangeChange": 150,
-"shootEffect": {
-"type": "multiEffect",
-"effects": ["colorSparkBig", "shootBig2"]
-},
-"smokeEffect": "shootSmokeDisperse",
-"backColor": "87ceeb",
-"trailColor": "87ceeb",
-"hitColor": "87ceeb",
-"trailLength": 5,
-"trailWidth": 2.5,
-"trailChance": 0.2,
-"ammoMultiplier": 5,
-"pierceArmor": true,
-"lifetime": 45,
-"rotationOffset": 90,
-"trailRotation": "true",
-"trailEffect": "disperseTrail",
-"hitEffect": {
-"type": "multiEffect",
-"effects": ["colorSparkBig", "hitBulletColor"]
+"rangeChange": 150
 },
 "despawnHit": true,
         },
