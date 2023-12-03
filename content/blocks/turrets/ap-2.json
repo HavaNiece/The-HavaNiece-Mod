@@ -4,7 +4,7 @@ description: Prototype number 2.
 targetAir: true
 targetGround: true
 health: 1000
-reload: 15
+reload: 90
 size: 5
 inaccuracy: 4
 recoilAmount: 50
@@ -12,7 +12,7 @@ ammoUseEffect: casing1
 shootCone: 20
 rotateSpeed: 1.6
 range: 480
-"coolantMultiplier": 60,
+"coolantMultiplier": 1.5,
   "consumes": {
     "coolant": {
       "amount": 1
@@ -23,28 +23,34 @@ ammoTypes: {
     speed: 24
 	lifetime:23   
 	damage: 95
+hitsize: 8
     width: 8
+splashDamage:0.66
     height: 16
+pierce: true
+piecebuilding: true
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-	ammoMultiplier: 30
+	ammoMultiplier: 10
 	pierceCap:2
-    pierce: true
-  },
+  }
   lead: {
     speed: 50
 	lifetime:180
 	damage: 55
     width: 6
+hitsize: 16
+splashDamage:0.66
+pierce: true
+piecebuilding: true
     height: 24
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 50
+    ammoMultiplier: 10
   }
 }
 requirements: [
   copper/5
-  lead/5
 ]
 category: turret
 research: duo
