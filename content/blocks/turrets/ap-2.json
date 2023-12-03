@@ -5,8 +5,8 @@ targetAir: true
 targetGround: true
 health: 1000
 reload: 90
-size: 5
-inaccuracy: 4
+size: 3
+inaccuracy: 2
 recoilAmount: 50
 ammoUseEffect: casing1
 shootCone: 20
