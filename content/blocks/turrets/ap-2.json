@@ -10,7 +10,7 @@ inaccuracy: 4
 recoilAmount: 50
 ammoUseEffect: casing1
 shootCone: 20
-rotateSpeed: 16
+rotateSpeed: 1.6
 range: 480
 "coolantMultiplier": 60,
   "consumes": {
@@ -30,7 +30,7 @@ ammoTypes: {
 	ammoMultiplier: 30
 	pierceCap:2
     pierce: true
-  }
+  },
   lead: {
     speed: 50
 	lifetime:180
