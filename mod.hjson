@@ -1,13 +1,7 @@
 name: havaniece-mod
-displayName: The HavaNiece Mod
-author: HavaNiece
+displayName: [#F895CC]Hava[#00E5FF]Niece [gold]Mod
+author: [#F895CC]Hava[#00E5FF]Niece
 description:
-  '''
-  WARNING: Still in early development.
-  
-  An attempt at creating a mod.
-
-  THIS MOD IS STILL IN EARLY DEVELOPMENT SO PLEASE SHUT UP ABOUT BUG REPORTS
-  '''
+  '''Quality Of Life mod, aka a cheat mod.'''
 version: 1.0
 minGameVersion: 146
