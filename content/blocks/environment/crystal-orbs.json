@@ -1,0 +1,7 @@
+{
+	"name": "crystal orbs",
+	"description": "Wall.",
+	"alwaysReplace": true,
+	"health": 100,
+	"destructible": false,
+}

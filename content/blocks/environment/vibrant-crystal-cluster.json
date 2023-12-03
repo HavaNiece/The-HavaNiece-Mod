@@ -1,0 +1,7 @@
+{
+	"name": "vibrant crystal cluster",
+	"description": "Wall.",
+	"alwaysReplace": true,
+	"health": 100,
+	"destructible": false,
+}
