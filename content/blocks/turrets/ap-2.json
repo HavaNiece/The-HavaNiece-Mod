@@ -10,10 +10,10 @@ size: 3
 inaccuracy: 1
 recoilAmount: 50
 ammoUseEffect: casing1
-shootCone: 12
+shootCone: 2
 rotateSpeed: 1.6
 range: 480
-"coolantMultiplier": 1.5,
+"coolantMultiplier": 0.5,
   "consumes": {
     "coolant": {
       "amount": 1
@@ -23,7 +23,7 @@ ammoTypes: {
   copper: {
     speed: 24
 	lifetime:22   
-	damage: 95
+	damage: 105
 hitsize: 8
     width: 8
 splashDamage: 80
@@ -37,13 +37,13 @@ piecebuilding: true
   }
   lead: {
     speed: 50
-	lifetime:100
-	damage: 55
+	lifetime:11
+	damage: 65
     width: 6
 hitsize: 16
 splashDamage:40
 pierce: true
-piercearmor: true
+pierceArmor: true
 piecebuilding: true
     height: 24
     shootEffect: shootBig
