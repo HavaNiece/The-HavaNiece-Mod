@@ -4,12 +4,13 @@ description: Prototype number 2.
 targetAir: true
 targetGround: true
 health: 1000
+maxammo: 150
 reload: 90
 size: 3
-inaccuracy: 2
+inaccuracy: 1
 recoilAmount: 50
 ammoUseEffect: casing1
-shootCone: 20
+shootCone: 12
 rotateSpeed: 1.6
 range: 480
 "coolantMultiplier": 1.5,
@@ -21,11 +22,11 @@ range: 480
 ammoTypes: {
   copper: {
     speed: 24
-	lifetime:23   
+	lifetime:22   
 	damage: 95
 hitsize: 8
     width: 8
-splashDamage:0.66
+splashDamage: 80
     height: 16
 pierce: true
 piecebuilding: true
@@ -36,12 +37,13 @@ piecebuilding: true
   }
   lead: {
     speed: 50
-	lifetime:180
+	lifetime:100
 	damage: 55
     width: 6
 hitsize: 16
-splashDamage:0.66
+splashDamage:40
 pierce: true
+piercearmor: true
 piecebuilding: true
     height: 24
     shootEffect: shootBig
