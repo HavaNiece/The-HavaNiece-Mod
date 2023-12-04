@@ -24,28 +24,30 @@ ammoTypes: {
     speed: 24
 	lifetime:22   
 	damage: 105
-hitsize: 8
     width: 8
-splashDamage: 80
     height: 16
+hitsize: 8
+splashDamage: 80
+splashDamageRadius: 12
 pierce: true
 piecebuilding: true
+pierceCap:2
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
 	ammoMultiplier: 10
-	pierceCap:2
   }
   lead: {
-    speed: 50
 	lifetime:11
 	damage: 65
+    speed: 50
     width: 6
+    height: 24
 hitsize: 16
 splashDamage:40
+splashDamageRadius: 12
 pierce: true
 pierceArmor: true
 piecebuilding: true
-    height: 24
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 10
@@ -53,12 +55,13 @@ piecebuilding: true
   scrap: {
     speed: 28
 	lifetime:22   
-	damage: 10
-hitsize: 32
-    width: 3
-splashDamage: 8
+	damage: 22
     height: 6
-reloadMultiplier: 11.50
+    width: 3
+hitsize: 32
+splashDamage: 18
+splashDamageRadius: 12
+reloadMultiplier: 16.0
 inaccuracy: 3
 pierce: false
 piecebuilding: false
