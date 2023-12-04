@@ -1,0 +1,11 @@
+name: Liguid Sourse
+description: placeholder for liquid ice until i make an actual way to obtain liquid ice legitamtely
+type: LiquidSource
+size: 1
+health: 1
+buildVisibility: shown
+category: liquid
+research: liquid-ice
+requirements: [
+  copper/1
+]
