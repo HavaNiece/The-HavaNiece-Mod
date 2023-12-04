@@ -58,14 +58,13 @@ hitsize: 32
     width: 3
 splashDamage: 8
     height: 6
-reloadMultiplier: 4.25
+reloadMultiplier: 11.50
 inaccuracy: 3
 pierce: false
 piecebuilding: false
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
 	ammoMultiplier: 5
-	pierceCap:1
   }
 }
 requirements: [
