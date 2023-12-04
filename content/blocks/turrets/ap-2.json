@@ -16,7 +16,7 @@ range: 480
 "coolantMultiplier": 0.5,
   "consumes": {
     "coolant": {
-      "amount": 1
+      "amount": 0.06
     }
   },
 ammoTypes: {
