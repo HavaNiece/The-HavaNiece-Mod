@@ -5,13 +5,13 @@ targetAir: true
 targetGround: true
 health: 1000
 maxammo: 150
-reload: 90
+reload: 75
 size: 3
 inaccuracy: 1
-recoilAmount: 50
+recoilAmount: 35
 ammoUseEffect: casing1
 shootCone: 2
-rotateSpeed: 1.6
+rotateSpeed: 1.2
 range: 480
 "coolantMultiplier": 0.5,
   "consumes": {
@@ -53,15 +53,15 @@ piecebuilding: true
     ammoMultiplier: 10
   }
   scrap: {
-    speed: 28
+    speed: 19
 	lifetime:22   
-	damage: 22
-    height: 6
-    width: 3
+	damage: 28
+    height: 16
+    width: 12
 hitsize: 32
-splashDamage: 18
-splashDamageRadius: 12
-reloadMultiplier: 16.0
+splashDamage: 25
+splashDamageRadius: 24
+reloadMultiplier: 13.5
 inaccuracy: 3
 pierce: false
 piecebuilding: false
