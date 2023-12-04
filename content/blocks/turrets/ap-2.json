@@ -16,7 +16,7 @@ range: 480
 "coolantMultiplier": 1,
   "consumes": {
     "coolant": {
-      "amount": 1
+      "amount": 0.06
     }
   },
 ammoTypes: {
@@ -45,9 +45,13 @@ pierceCap:2
 hitsize: 16
 splashDamage:40
 splashDamageRadius: 12
+fragBullets: 24
+fragRandomSpread: 45
 pierce: true
 pierceArmor: true
 piecebuilding: true
+absorbable: false
+reflectable: false
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 10
@@ -65,6 +69,8 @@ reloadMultiplier: 13.5
 inaccuracy: 3
 pierce: false
 piecebuilding: false
+absorbable: false
+reflectable: false
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
 	ammoMultiplier: 5
