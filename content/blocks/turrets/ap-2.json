@@ -50,9 +50,26 @@ piecebuilding: true
     smokeEffect: shootBigSmoke
     ammoMultiplier: 10
   }
+  scrap: {
+    speed: 28
+	lifetime:22   
+	damage: 10
+hitsize: 32
+    width: 3
+splashDamage: 8
+    height: 6
+reloadMultiplier: 4.25
+inaccuracy: 3
+pierce: false
+piecebuilding: false
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+	ammoMultiplier: 5
+	pierceCap:1
+  }
 }
 requirements: [
-  copper/5
+  copper/1
 ]
 category: turret
 research: duo
