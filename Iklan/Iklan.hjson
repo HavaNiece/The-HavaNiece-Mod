@@ -1,11 +1,13 @@
-name: "Iklan Poster Produk Beg"
+{
+name: "Iklan Poster Produk Beg",
 author: {
   Loh Jin Jay,
   Kay Kye Jie,
   Dixon Chan Seng Kwong,
   Bernard Lai
-}
+},
 description: {
   https://www.canva.com/design/DAF2HcpxaL8/UoV0J7YWxTm8yEACC8csXg/edit?utm_content=DAF2HcpxaL8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
   https://www.canva.com/design/DAF2HZochvk/RYALd4twjoI4i9A3cELZiw/edit?utm_content=DAF2HZochvk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+},
 }
