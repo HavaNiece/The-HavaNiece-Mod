@@ -11,11 +11,11 @@ shotDelay: 2
 }
 reload: 12
 size: 2
-inaccuracy: 1
+inaccuracy: 2
 recoilAmount: 50
 ammoUseEffect: casing3
-shootCone: 10
-rotateSpeed: 3
+shootCone: 22.5
+rotateSpeed: 5
 range: 420
 "coolantMultiplier": 10,
   "consumes": {
@@ -40,6 +40,9 @@ ammoTypes: {
     frontColor: F59AF3
 status: sapped
 statusDuration: 180
+absorbable: false
+reflectable: false
+hittable: false
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     pierce: true
@@ -60,10 +63,6 @@ statusDuration: 180
     height: 28
     frontColor: ff5b14
     backColor: ffa255
-    status: melting
-    statusDuration: 600
-    status: burning
-    statusDuration: 600
     status: blasted
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
