@@ -7,9 +7,9 @@ health: 2500
 maxAmmo: 150
 shoot: {
 shots: 4
-shotDelay: 6
+shotDelay: 2
 }
-reload: 25
+reload: 12
 size: 2
 inaccuracy: 1
 recoilAmount: 50
@@ -40,13 +40,12 @@ statusDuration: 180
     smokeEffect: shootBigSmoke
     pierceDamageFactor: 5
     pierce: true
-    pierceCap: 4
     pierceBuilding: true
     pierceArmor: true
   }
   coal: {
     speed: 5
-    reloadMultiplier: 1
+    reloadMultiplier: 0.05
 	lifetime:84
 	damage: 75
         splashDamage: 750
