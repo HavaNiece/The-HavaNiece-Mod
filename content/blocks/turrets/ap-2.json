@@ -13,10 +13,10 @@ ammoUseEffect: casing1
 shootCone: 2
 rotateSpeed: 1.2
 range: 480
-"coolantMultiplier": 1,
+"coolantMultiplier": 2,
   "consumes": {
     "coolant": {
-      "amount": 1.25
+      "amount": 0
     }
   },
 ammoTypes: {
