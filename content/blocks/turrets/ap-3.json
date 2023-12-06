@@ -69,6 +69,7 @@ burning
 {
 blasted
 }
+}
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
