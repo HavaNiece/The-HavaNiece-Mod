@@ -57,19 +57,11 @@ statusDuration: 180
     height: 12
     frontColor: ff5b14
     backColor: ffa255
-    status: {
-{
-melting
+    status: melting
     statusDuration: 600
-  },
-{
-burning
+    status: burning
     statusDuration: 600
-},
-{
-blasted
-}
-}
+    status: blasted
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
