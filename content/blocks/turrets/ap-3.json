@@ -1,4 +1,4 @@
-type: BurstTurret
+type: ItemTurret
 localizedName: P-3
 description: Prototype number 3.
 targetAir: true
@@ -7,9 +7,9 @@ health: 2500
 maxAmmo: 150
 shoot: {
 shots: 4
-shotdelay: 60
+burstSpacing: 12
 }
-reload: 180
+reload: 55
 size: 2
 inaccuracy: 1
 recoilAmount: 50
