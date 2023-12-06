@@ -7,9 +7,9 @@ health: 2500
 maxammo: 150
 shoot: {
 shots: 4
-shotdelay: 12
+shotdelay: 60
 }
-reload: 18
+reload: 180
 size: 2
 inaccuracy: 1
 recoilAmount: 50
@@ -57,13 +57,21 @@ statusDuration: 180
     height: 12
     frontColor: ff5b14
     backColor: ffa255
-    status:blasted
-    status:burning
-    status:melting
+    status: {
+{
+melting
     statusDuration: 600
+  },
+{
+burning
+    statusDuration: 600
+},
+{
+blasted
+}
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 0.5
+    ammoMultiplier: 1
   }
 }
 requirements: [
