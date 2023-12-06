@@ -7,9 +7,9 @@ health: 2500
 maxAmmo: 150
 shoot: {
 shots: 4
-burstSpacing: 12
+shotDelay: 6
 }
-reload: 55
+reload: 25
 size: 2
 inaccuracy: 1
 recoilAmount: 50
