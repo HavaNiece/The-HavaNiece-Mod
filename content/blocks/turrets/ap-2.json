@@ -13,10 +13,10 @@ ammoUseEffect: casing1
 shootCone: 2
 rotateSpeed: 1.2
 range: 480
-"coolantMultiplier": 2,
+"coolantMultiplier": 250,
   "consumes": {
     "coolant": {
-      "amount": 0
+      "amount": 0.1
     }
   },
 ammoTypes: {
@@ -39,7 +39,7 @@ pierceCap:2
   lead: {
 	lifetime:11
 	damage: 65
-    speed: 50
+    speed: 42
     width: 6
     height: 24
 hitsize: 16
