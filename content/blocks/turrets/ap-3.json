@@ -1,10 +1,10 @@
-type: ItemTurret
+type: BurstTurret
 localizedName: P-3
 description: Prototype number 3.
 targetAir: true
 targetGround: true
 health: 2500
-maxammo: 150
+maxAmmo: 150
 shoot: {
 shots: 4
 shotdelay: 60
@@ -46,7 +46,7 @@ statusDuration: 180
   }
   coal: {
     speed: 5
-    reloadMultiplier: 0.1
+    reloadMultiplier: 1
 	lifetime:84
 	damage: 75
         splashDamage: 750
