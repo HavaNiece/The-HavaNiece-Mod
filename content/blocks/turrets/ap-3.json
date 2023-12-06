@@ -7,7 +7,7 @@ health: 2500
 maxammo: 150
 shoot: {
 shots: 4
-shotdelay: 4
+shotdelay: 12
 }
 reload: 18
 size: 2
@@ -25,10 +25,9 @@ range: 420
   },
 ammoTypes: {
   thorium: {
-	damage: 75
+	damage: 350
         speed: 16
 	lifetime:28    
-	ammoMultiplier: 30
         reloadMultiplier: 1.25
     width: 16
     height: 26
@@ -47,13 +46,24 @@ statusDuration: 180
   }
   coal: {
     speed: 5
-	lifetime:25
-	damage: 175
-    height: 10
+    reloadMultiplier: 0.1
+	lifetime:84
+	damage: 75
+        splashDamage: 750
+        scaledSplashDamage: true
+        splashDamageRadius: 56
+        splashDamagePierce: true
+    width: 5
+    height: 12
+    frontColor: ff5b14
+    backColor: ffa255
     status:blasted
+    status:burning
+    status:melting
+    statusDuration: 600
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 5
+    ammoMultiplier: 0.5
   }
 }
 requirements: [
