@@ -1,0 +1,53 @@
+type: ItemTurret
+localizedName: P-3
+description: Prototype number 3.
+targetAir: true
+targetGround: true
+health: 2500
+reload: 8
+size: 2
+inaccuracy: 1
+recoilAmount: 50
+ammoUseEffect: casing3
+shootCone: 10
+rotateSpeed: 3
+range: 420
+"coolantMultiplier": 10,
+  "consumes": {
+    "coolant": {
+      "amount": 0.1
+    }
+  },
+ammoTypes: {
+  thorium: {
+    speed: 12
+	lifetime:25    
+	damage: 70
+    width: 6
+    height: 10
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+	ammoMultiplier: 30
+    pierceDamageFactor: 80
+	pierceCap:6
+    pierce: true
+  }
+  coal: {
+    speed: 5
+	lifetime:25
+	damage: 175
+    height: 10
+    status:blasted
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  titanium/5
+  copper/60
+  thorium/10
+]
+category: turret
+research: ap-2
+shootSound: bigshot
