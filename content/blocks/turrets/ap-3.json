@@ -29,6 +29,10 @@ ammoTypes: {
         speed: 16
 	lifetime:28    
         reloadMultiplier: 1.25
+        splashDamage: 300
+        scaledSplashDamage: true
+        splashDamageRadius: 48
+        splashDamagePierce: true
     width: 16
     height: 26
     hitsize: 5
@@ -38,8 +42,8 @@ status: sapped
 statusDuration: 180
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    pierceDamageFactor: 5
     pierce: true
+    pierceCap: 500
     pierceBuilding: true
     pierceArmor: true
   }
@@ -52,8 +56,8 @@ statusDuration: 180
         scaledSplashDamage: true
         splashDamageRadius: 56
         splashDamagePierce: true
-    width: 5
-    height: 12
+    width: 18
+    height: 28
     frontColor: ff5b14
     backColor: ffa255
     status: melting
