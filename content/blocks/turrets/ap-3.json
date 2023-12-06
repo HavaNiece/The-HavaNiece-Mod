@@ -4,7 +4,12 @@ description: Prototype number 3.
 targetAir: true
 targetGround: true
 health: 2500
-reload: 8
+maxammo: 150
+shoot: {
+shots: 4
+shotdelay: 4
+}
+reload: 18
 size: 2
 inaccuracy: 1
 recoilAmount: 50
@@ -20,17 +25,25 @@ range: 420
   },
 ammoTypes: {
   thorium: {
-    speed: 12
-	lifetime:25    
-	damage: 70
-    width: 6
-    height: 10
+	damage: 75
+        speed: 16
+	lifetime:28    
+	ammoMultiplier: 30
+        reloadMultiplier: 1.25
+    width: 16
+    height: 26
+    hitsize: 5
+    backColor: F375DA
+    frontColor: F59AF3
+status: sapped
+statusDuration: 180
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-	ammoMultiplier: 30
-    pierceDamageFactor: 80
-	pierceCap:6
+    pierceDamageFactor: 5
     pierce: true
+    pierceCap: 4
+    pierceBuilding: true
+    pierceArmor: true
   }
   coal: {
     speed: 5
