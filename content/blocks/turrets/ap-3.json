@@ -4,12 +4,12 @@ description: Prototype number 3.
 targetAir: true
 targetGround: true
 health: 2500
-maxAmmo: 150
+maxAmmo: 2000
 shoot: {
 shots: 4
 shotDelay: 2
 }
-reload: 12
+reload: 10
 size: 2
 inaccuracy: 2
 recoilAmount: 50
@@ -17,10 +17,10 @@ ammoUseEffect: casing3
 shootCone: 22.5
 rotateSpeed: 5
 range: 420
-"coolantMultiplier": 10,
+"coolantMultiplier": 100,
   "consumes": {
     "coolant": {
-      "amount": 0.1
+      "amount": 0.01
     }
   },
 ammoTypes: {
@@ -49,6 +49,10 @@ hittable: false
     pierceCap: 500
     pierceBuilding: true
     pierceArmor: true
+healPercent: 10
+healAmount: 60
+minWarmup: 90
+    ammoMultiplier: 200
   }
   coal: {
     speed: 5
@@ -69,10 +73,9 @@ hittable: false
     ammoMultiplier: 1
   }
 }
+//please change back to 60 copper, 10 thorium and 5 titanium after testing
 requirements: [
-  titanium/5
-  copper/60
-  thorium/10
+  copper/5
 ]
 category: turret
 research: ap-2
