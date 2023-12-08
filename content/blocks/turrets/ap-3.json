@@ -4,6 +4,7 @@ description: Prototype number 3.
 targetAir: true
 targetGround: true
 health: 2500
+minWarmup: 90
 maxAmmo: 2000
 shoot: {
 shots: 4
@@ -31,11 +32,11 @@ ammoTypes: {
         reloadMultiplier: 1.25
         splashDamage: 300
         scaledSplashDamage: true
-        splashDamageRadius: 48
+        splashDamageRadius: 80
         splashDamagePierce: true
     width: 16
     height: 26
-    hitsize: 5
+    hitsize: 12
     backColor: F375DA
     frontColor: F59AF3
 status: sapped
@@ -50,8 +51,7 @@ hittable: false
     pierceBuilding: true
     pierceArmor: true
 healPercent: 10
-healAmount: 60
-minWarmup: 90
+healAmount: 90
     ammoMultiplier: 200
   }
   coal: {
