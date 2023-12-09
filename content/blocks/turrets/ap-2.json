@@ -80,8 +80,8 @@ requirements: [
   copper/1
 ]
 category: turret
-research: {
-duo,
-beach
-}
+research: [
+duo
+breach
+]
 shootSound: bigshot
