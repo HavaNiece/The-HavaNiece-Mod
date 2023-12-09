@@ -5,6 +5,7 @@
   "charge": 10,
   "radioactivity": 10,
   "flammability": 5,
+  "explosiveness": 10,
   "color": "E32EFF",
   "research": {
     "parent": "ap-2",
