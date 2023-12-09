@@ -86,9 +86,10 @@ research: {
     copper/100
   ]
 }, 
+{
   parent: breach
   requirements: [
     beryllium/100
   ]
-
+}
 shootSound: bigshot
