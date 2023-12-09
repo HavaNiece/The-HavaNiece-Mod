@@ -90,6 +90,5 @@ research: {
   requirements: [
     beryllium/100
   ]
-}
 
 shootSound: bigshot
