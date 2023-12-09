@@ -81,7 +81,6 @@ requirements: [
 ]
 category: turret
 research: {
-{
   parent: duo
   requirements: [
     copper/100
