@@ -6,7 +6,7 @@ targetGround: true
 health: 1000
 maxammo: 150
 reload: 75
-size: 3
+size: 4
 inaccuracy: 1
 recoilAmount: 35
 ammoUseEffect: casing1
