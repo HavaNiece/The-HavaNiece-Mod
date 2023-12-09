@@ -51,13 +51,13 @@ hittable: false
     pierceArmor: true
 healPercent: 10
 healAmount: 90
-    ammoMultiplier: 200
+    ammoMultiplier: 20
   }
   coal: {
     speed: 5
     reloadMultiplier: 0.05
 	lifetime:84
-	damage: 75
+	damage: 125
         splashDamage: 750
         scaledSplashDamage: true
         splashDamageRadius: 56
