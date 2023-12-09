@@ -10,7 +10,7 @@ shots: 4
 shotDelay: 2
 }
 reload: 10
-size: 2
+size: 4
 inaccuracy: 2
 recoilAmount: 50
 ammoUseEffect: casing3
