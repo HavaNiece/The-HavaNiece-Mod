@@ -1,0 +1,81 @@
+type: ItemTurret
+localizedName: P-3
+description: Prototype number 3.
+targetAir: true
+targetGround: true
+health: 2500
+maxAmmo: 2000
+shoot: {
+shots: 4
+shotDelay: 2
+}
+reload: 10
+size: 2
+inaccuracy: 2
+recoilAmount: 50
+ammoUseEffect: casing3
+shootCone: 22.5
+rotateSpeed: 5
+range: 420
+"coolantMultiplier": 100,
+  "consumes": {
+    "coolant": {
+      "amount": 0.01
+    }
+  },
+//change to synthetic thorium once properly implemented
+ammoTypes: {
+  thorium: {
+	damage: 350
+        speed: 16
+	lifetime:28    
+        reloadMultiplier: 1.25
+        splashDamage: 300
+        scaledSplashDamage: true
+        splashDamageRadius: 80
+        splashDamagePierce: true
+    width: 16
+    height: 26
+    hitsize: 12
+    backColor: F375DA
+    frontColor: F59AF3
+status: sapped
+statusDuration: 180
+absorbable: false
+reflectable: false
+hittable: false
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    pierce: true
+    pierceCap: 500
+    pierceBuilding: true
+    pierceArmor: true
+healPercent: 10
+healAmount: 90
+    ammoMultiplier: 20
+  }
+  coal: {
+    speed: 5
+    reloadMultiplier: 0.05
+	lifetime:84
+	damage: 125
+        splashDamage: 750
+        scaledSplashDamage: true
+        splashDamageRadius: 56
+        splashDamagePierce: true
+    width: 18
+    height: 28
+    frontColor: ff5b14
+    backColor: ffa255
+    status: blasted
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
+  }
+}
+//please change back to 60 copper, 10 thorium and 5 titanium after testing
+requirements: [
+]
+category: turret
+research: ap-2
+shootSound: bigshot
