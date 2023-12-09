@@ -77,19 +77,11 @@ reflectable: false
   }
 }
 requirements: [
-  copper/1
 ]
 category: turret
 research: {
-  parent: duo
+  parent: sand
   requirements: [
-    copper/100
-  ]
-}, 
-{
-  parent: breach
-  requirements: [
-    beryllium/100
   ]
 }
 shootSound: bigshot
