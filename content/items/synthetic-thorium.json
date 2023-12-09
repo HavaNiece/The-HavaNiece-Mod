@@ -6,7 +6,7 @@
   "radioactivity": 10,
   "flammability": 5,
   "explosiveness": 10,
-  "color": "A00D6",
+  "color": "BA00D6",
   "research": {
     "parent": "ap-2",
     "requirements": [
