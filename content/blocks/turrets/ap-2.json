@@ -81,12 +81,12 @@ requirements: [
 ]
 category: turret
 research: {
+{
   parent: duo
   requirements: [
     copper/100
   ]
-},
-{
+}, {
   parent: breach
   requirements: [
     beryllium/100
