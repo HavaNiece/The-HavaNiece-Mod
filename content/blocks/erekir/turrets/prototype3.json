@@ -1,5 +1,5 @@
 type: ItemTurret
-localizedName: P-3
+localizedName: Prototype 3
 description: Prototype number 3.
 targetAir: true
 targetGround: true
