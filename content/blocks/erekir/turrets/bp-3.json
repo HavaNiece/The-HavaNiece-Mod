@@ -1,5 +1,5 @@
 type: ItemTurret
-localizedName: Prototype 3
+localizedName: P-3
 description: Prototype number 3.
 targetAir: true
 targetGround: true
@@ -78,12 +78,13 @@ requirements: [
 ]
 category: turret
 research: breach
+//why doesn't this fucking work
 drawer:{
  type: DrawTurret
  basePrefix: reinforced-
  parts: [
 {
-suffix: ""
+suffix: "-test"
 mirror: false
 progress: recoil
 moveY: -6
