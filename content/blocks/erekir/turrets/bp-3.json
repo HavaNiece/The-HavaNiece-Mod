@@ -81,12 +81,15 @@ research: breach
 drawer:{
  type: DrawTurret
  basePrefix: reinforced-
+drawer:{
+ type: DrawTurret
+ basePrefix: reinforced-
  parts: [
 {
 suffix: "-barrel"
 mirror: false
 progress: recoil
-moveY: -4
+moveY: -3
 x: 0
 }
 {
