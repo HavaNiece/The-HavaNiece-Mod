@@ -7,16 +7,15 @@ health: 5000
 minWarmup: 0.95
 maxAmmo: 2000
 shoot: {
-shots: 4
-shotDelay: 2
+shots: 2
 }
-reload: 10
+reload: 6
 size: 4
-inaccuracy: 2
+inaccuracy: 0.5
 recoilAmount: 50
 ammoUseEffect: casing3
 shootCone: 22.5
-rotateSpeed: 5
+rotateSpeed: 9
 range: 1800
 "coolantMultiplier": 100,
   "consumes": {
@@ -24,7 +23,6 @@ range: 1800
       "amount": 0.01
     }
   },
-//change to synthetic thorium if the unit is properly implemented
 ammoTypes: {
   beryllium: {
 	damage: 500
@@ -74,12 +72,10 @@ healAmount: 150
     ammoMultiplier: 5
   }
 }
-//please change back to 60 copper, 10 thorium and 5 titanium after testing
 requirements: [
 ]
 category: turret
 research: breach
-//why doesn't this fucking work
 drawer:{
  type: DrawTurret
  basePrefix: reinforced-
@@ -87,8 +83,8 @@ drawer:{
 {
 suffix: "-barrel"
 mirror: false
-progress: recoil
-moveY: -3
+progress: warmup
+moveY: -5
 x: 0
 }
 {
