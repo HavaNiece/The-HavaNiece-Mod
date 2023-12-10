@@ -1,6 +1,11 @@
+T[n] - Priority number [n]
+S- scrapped
+I- implemented
+SI- sub-implemented
+
 v1.0
 - Prototype-3
-Add a healing ammunition
+SI- Add a healing ammunition
 - Synthetic thorium
 Main ammunition for Prototype-3 and maybe Prototype-2
 - Synthetic thorium synthesizer
