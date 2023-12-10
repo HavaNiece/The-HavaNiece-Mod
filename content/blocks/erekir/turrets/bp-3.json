@@ -78,7 +78,6 @@ requirements: [
 ]
 category: turret
 research: breach
-
 drawer:{
  type: DrawTurret
  basePrefix: reinforced-
