@@ -85,7 +85,7 @@ drawer:{
 {
 suffix: "-barrel"
 mirror: false
-progress: warmup
+progress: recoil
 moveY: -4
 x: 0
 }
