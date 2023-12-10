@@ -1,0 +1,10 @@
+name: Item Sourse
+description: Item source but Item sourse. A cheat block if you haven't realized
+type: ItemSource
+size: 1
+health: 1
+buildVisibility: shown
+category: crafter
+research: liquid-ice
+requirements: [
+]
