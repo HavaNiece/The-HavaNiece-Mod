@@ -86,13 +86,6 @@ drawer:{
  basePrefix: reinforced-
  parts: [
 {
-suffix: "-barrel"
-mirror: false
-progress: recoil
-moveY: -3
-x: 0
-}
-{
 type: ShapePart
 progress: warmup
 mirror: false
