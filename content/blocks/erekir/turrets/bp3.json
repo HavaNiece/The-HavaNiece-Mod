@@ -4,6 +4,7 @@ description: Prototype number 3.
 targetAir: true
 targetGround: true
 health: 5000
+minWarmup: 12
 maxAmmo: 2000
 shoot: {
 shots: 4
@@ -84,11 +85,61 @@ drawer:{
  basePrefix: reinforced-
  parts: [
 {
-suffix: "-test"
+suffix: "-barrel"
 mirror: false
 progress: recoil
-moveY: -6
+moveY: -3
 x: 0
+}
+{
+type: ShapePart
+progress: warmup
+mirror: false
+color: f2ae8f
+hollow: true
+layer: 110
+sides: 5
+stroke: 0
+strokeTo: 4
+radius: 8
+rotation: 90
+y: -14
+rotateSpeed: 2
+}
+{
+type: HaloPart
+progress: warmup
+color: f2ae8f
+hollow: false
+layer: 110
+shapes: 4
+haloRotateSpeed: 5
+haloRadius: 5
+radius: 8
+stroke: 0
+strokeTo: 1
+tri: true
+triLength: 0
+triLengthTo: 10
+y: -14
+}
+{
+type: HaloPart
+progress: warmup
+color: f2ae8f
+hollow: false
+layer: 110
+shapes: 2
+haloRotation: 90
+haloRotateSpeed: 0
+haloRadius: 12
+radius: 8
+stroke: 0
+strokeTo: 1
+tri: true
+triLength: 0
+triLengthTo: 18
+y: -14
 }
 ]   
 }
