@@ -17,7 +17,7 @@ recoilAmount: 50
 ammoUseEffect: casing3
 shootCone: 22.5
 rotateSpeed: 5
-range: 420
+range: 1800
 "coolantMultiplier": 100,
   "consumes": {
     "coolant": {
@@ -27,11 +27,11 @@ range: 420
 //change to synthetic thorium if the unit is properly implemented
 ammoTypes: {
   graphite: {
-	damage: 350
+	damage: 500
         speed: 16
-	lifetime:28    
+	lifetime: 120   
         reloadMultiplier: 1.25
-        splashDamage: 300
+        splashDamage: 450
         scaledSplashDamage: true
         splashDamageRadius: 80
         splashDamagePierce: true
@@ -40,7 +40,7 @@ ammoTypes: {
     hitsize: 12
     backColor: F375DA
     frontColor: F59AF3
-status: sapped
+status: unmoving
 statusDuration: 180
 absorbable: false
 reflectable: false
@@ -52,17 +52,17 @@ hittable: false
     pierceBuilding: true
     pierceArmor: true
 healPercent: 10
-healAmount: 90
+healAmount: 150
     ammoMultiplier: 20
   }
-  beryllium: {
+  graphite: {
     speed: 5
     reloadMultiplier: 0.05
-	lifetime:84
-	damage: 125
-        splashDamage: 750
+	lifetime:380
+	damage: 200
+        splashDamage: 1250
         scaledSplashDamage: true
-        splashDamageRadius: 56
+        splashDamageRadius: 80
         splashDamagePierce: true
     width: 18
     height: 28
@@ -71,7 +71,7 @@ healAmount: 90
     status: blasted
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 1
+    ammoMultiplier: 5
   }
 }
 //please change back to 60 copper, 10 thorium and 5 titanium after testing
