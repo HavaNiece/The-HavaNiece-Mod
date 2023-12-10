@@ -4,7 +4,7 @@ type: ItemSource
 size: 1
 health: 1
 buildVisibility: shown
-category: crafter
+category: distribution
 research: liquid-ice
 requirements: [
 ]
