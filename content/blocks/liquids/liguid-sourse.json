@@ -7,5 +7,4 @@ buildVisibility: shown
 category: liquid
 research: liquid-ice
 requirements: [
-  copper/1
 ]
