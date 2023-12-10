@@ -4,7 +4,7 @@ description: Prototype number 3.
 targetAir: true
 targetGround: true
 health: 5000
-minWarmup: 12
+minWarmup: 0.5
 maxAmmo: 2000
 shoot: {
 shots: 4
