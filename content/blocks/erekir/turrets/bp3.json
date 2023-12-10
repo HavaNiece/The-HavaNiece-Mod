@@ -26,7 +26,7 @@ range: 1800
   },
 //change to synthetic thorium if the unit is properly implemented
 ammoTypes: {
-  graphite: {
+  beryllium: {
 	damage: 500
         speed: 16
 	lifetime: 120   
