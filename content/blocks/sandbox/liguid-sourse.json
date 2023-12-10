@@ -4,7 +4,7 @@ type: LiquidSource
 size: 1
 health: 1
 buildVisibility: shown
-category: liquid
+category: distribution
 research: liquid-ice
 requirements: [
 ]
