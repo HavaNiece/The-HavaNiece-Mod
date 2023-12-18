@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: "[#BA00D6]Synthethic Thorium[] Synthesizer"
+description:
+  '''
+Synthesizes [#BA00D6]Synthethic Thorium []via the power of...
+  
+  power?
+Produces water as a by-product
+  '''
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 30
+flameColor: C9A58F
+updateEffect: smeltsmoke
+consumes: {
+  power: 3
+  items: {
+    items: [
+    ]
+  }
+}
+requirements: [
+  copper/1
+]
+category: crafting
+research: alloy-smelter
+idleSound: completelynormalsandforgery
+idleSoundVolume: 2
+sync: false
+outputItem: normalsand/1
