@@ -3,9 +3,9 @@ name: "[#BA00D6]Synthethic Thorium[] Synthesizer"
 health: 2500
 description:
   '''
-Synthesizes [#BA00D6]Synthethic Thorium []via the power of...
-  
-  power?
+Synthesizes [#BA00D6]Synthethic Thorium[] via the power of...
+
+power?
 Produces water as a by-product
   '''
 size: 3
@@ -23,8 +23,9 @@ ignoreLiquidFullness: true
 liquidOutputDirections: {-1}
 flameColor: C9A58F
 updateEffect: smeltsmoke
-consumes: 
+consumes: {
 power: 3
+}
 requirements: [
 ]
 category: crafting
