@@ -23,7 +23,11 @@ ignoreLiquidFullness: true
 flameColor: C9A58F
 updateEffect: smeltsmoke
 consumes: {
-power: 3
+  power: 5
+  items: {
+    items: [
+    ]
+  }
 }
 requirements: [
 ]
@@ -31,4 +35,4 @@ category: crafting
 research: synthetic-thorium
 sync: true
 outputItem: synthetic-thorium/2
-outputLiquid: water/15
+outputLiquid: water/0.5
