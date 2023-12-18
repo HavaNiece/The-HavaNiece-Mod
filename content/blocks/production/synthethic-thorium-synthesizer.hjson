@@ -20,7 +20,6 @@ liquidCapacity: 150
 outputsLiquid: true
 outputFacing: false
 ignoreLiquidFullness: true
-liquidOutputDirections: -1
 flameColor: C9A58F
 updateEffect: smeltsmoke
 consumes: {
