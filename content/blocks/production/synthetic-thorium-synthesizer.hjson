@@ -1,9 +1,9 @@
 type: GenericCrafter
-name: "[#BA00D6]Synthethic Thorium[] Synthesizer"
+name: "[#BA00D6]Synthetic Thorium[] Synthesizer"
 health: 2500
 description:
   '''
-Synthesizes [#BA00D6]Synthethic Thorium[] via the power of...
+Synthesizes [#BA00D6]Synthetic Thorium[] via the power of...
 
 power?
 Produces water as a by-product
@@ -28,7 +28,7 @@ power: 3
 requirements: [
 ]
 category: crafting
-research: synthethic-thorium
+research: synthetic-thorium
 sync: true
-outputItem: synthethic-thorium/2
+outputItem: synthetic-thorium/2
 outputLiquid: water/15
