@@ -4,4 +4,5 @@
 	"alwaysReplace": true,
 	"health": 100,
 	"destructible": false,
+	"buildVisibility": "shown",
 }
