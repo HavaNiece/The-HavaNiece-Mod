@@ -23,7 +23,7 @@ ignoreLiquidFullness: true
 flameColor: C9A58F
 updateEffect: smeltsmoke
 consumes: {
-  power: 5
+  power: 0.83
   items: {
     items: [
     ]
