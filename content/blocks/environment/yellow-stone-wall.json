@@ -5,4 +5,5 @@
 	"health": 100,
 	"destructible": false,
 	"buildVisibility": "shown",
+	"category": "logic",
 }
