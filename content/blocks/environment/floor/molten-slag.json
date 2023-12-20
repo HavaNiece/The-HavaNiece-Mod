@@ -5,7 +5,6 @@
 	"placeableLiquid": "true",
   "requirements": [
   ],
-  "category": "effect",
   "research": "deep-water",
 "buildCostMultiplier": "0",
 }
