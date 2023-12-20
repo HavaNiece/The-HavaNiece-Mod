@@ -1,5 +1,6 @@
 {
 	"name": "yellow stone vent",
+        "size": "3"
 	"buildVisibility": "shown",
 	"category": "logic",
 	"placeableLiquid": "true",
