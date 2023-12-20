@@ -2,6 +2,7 @@ name: Liguid Sourse
 description: placeholder for liquid ice until i make an actual way to obtain liquid ice legitamtely
 type: LiquidSource
 size: 1
+buildCostMultiplier: 0
 health: 1
 buildVisibility: shown
 category: distribution
