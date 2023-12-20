@@ -6,4 +6,9 @@
 	"destructible": false,
 	"buildVisibility": "shown",
 	"category": "logic",
+        "research": {
+		"parent": "bp3",
+                "requirements":[
+		]
+	}
 }
