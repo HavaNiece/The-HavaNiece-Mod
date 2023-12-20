@@ -9,6 +9,7 @@ power?
 Produces water as a by-product
   '''
 size: 3
+buildCostMultiplier: 0
 destructible: true
 unloadable: true
 hasPower: true
