@@ -11,6 +11,7 @@ shots: 2
 }
 reload: 6
 size: 4
+buildCostMultiplier: 0
 inaccuracy: 0.5
 recoilAmount: 50
 ammoUseEffect: casing3
