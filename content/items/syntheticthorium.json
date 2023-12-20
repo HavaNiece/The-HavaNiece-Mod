@@ -8,7 +8,7 @@
   "explosiveness": 10,
   "color": "BA00D6",
   "research": {
-    "parent": "ap-2",
+    "parent": "ap2",
     "requirements": [
       "copper/100"
     ]
