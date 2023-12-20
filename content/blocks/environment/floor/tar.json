@@ -7,4 +7,5 @@
   ],
   "category": "effect",
   "research": "pooled-cryofluid",
+"buildCostMultiplier": "0",
 }
