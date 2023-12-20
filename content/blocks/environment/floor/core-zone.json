@@ -3,6 +3,7 @@
 	"buildVisibility": "shown",
 	"category": "effect",
 "requirements": [
-]
-"research": "ap2"
+],
+"research": "ap2",
+"buildCostMultiplier": "0",
 }
