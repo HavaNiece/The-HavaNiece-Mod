@@ -11,6 +11,7 @@ shotDelay: 2
 }
 reload: 10
 size: 2
+buildCostMultiplier: 0
 inaccuracy: 2
 recoilAmount: 50
 ammoUseEffect: casing3
