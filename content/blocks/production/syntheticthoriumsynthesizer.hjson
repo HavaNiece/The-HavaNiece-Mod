@@ -32,7 +32,7 @@ consumes: {
 requirements: [
 ]
 category: crafting
-research: synthetic-thorium
+research: syntheticthorium
 sync: true
-outputItem: synthetic-thorium/2
+outputItem: syntheticthorium/2
 outputLiquid: water/0.5
