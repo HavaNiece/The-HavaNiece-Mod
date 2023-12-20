@@ -2,4 +2,9 @@
 	"name": "cryofluid",
 	"buildVisibility": "shown",
 	"category": "effect",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "category": "effect",
+  "research": "pine",
 }
