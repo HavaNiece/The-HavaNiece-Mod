@@ -4,7 +4,4 @@
 	"alwaysReplace": true,
 	"health": 100,
 	"destructible": false,
-	"research": "sandforge",
-	"buildVisibility": "shown",
-	"category": "effect",
 }
