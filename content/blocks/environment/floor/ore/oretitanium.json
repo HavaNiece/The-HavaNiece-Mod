@@ -1,0 +1,10 @@
+{
+	"name": "titanium",
+	"buildVisibility": "shown",
+	"category": "effect",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "pine",
+"buildCostMultiplier": "0",
+}
