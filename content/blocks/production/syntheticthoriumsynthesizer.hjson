@@ -33,7 +33,7 @@ consumes: {
 requirements: [
 ]
 category: crafting
-research: syntheticthorium
+research: ap3
 sync: true
 outputItem: syntheticthorium/2
 outputLiquid: liquidice/1
