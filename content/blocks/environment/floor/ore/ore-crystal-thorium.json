@@ -1,7 +1,7 @@
 {
 	"name": "crystal thorium",
 	"buildVisibility": "shown",
-	"category": "effect",
+	"category": "logic",
 	"placeableLiquid": "true",
   "requirements": [
   ],
