@@ -1,0 +1,10 @@
+{
+	"name": "scrap",
+	"buildVisibility": "shown",
+	"category": "effect",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "ore-thorium",
+"buildCostMultiplier": "0",
+}
