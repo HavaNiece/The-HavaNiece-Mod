@@ -1,0 +1,10 @@
+{
+	"name": "thorium",
+	"buildVisibility": "shown",
+	"category": "effect",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "oretitanium",
+"buildCostMultiplier": "0",
+}
