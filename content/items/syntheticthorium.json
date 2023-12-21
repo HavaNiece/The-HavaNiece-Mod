@@ -8,9 +8,8 @@
   "explosiveness": 10,
   "color": "BA00D6",
   "research": {
-    "parent": "ap2",
+    "parent": "syntheticthoriumsynthesizer",
     "requirements": [
-      "copper/100"
-    ]
+ ]
   }
 }
