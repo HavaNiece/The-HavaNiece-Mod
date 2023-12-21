@@ -5,6 +5,6 @@
 	"placeableLiquid": "true",
   "requirements": [
   ],
-  "research": "pine",
+  "research": "ore-coal",
 "buildCostMultiplier": "0",
 }
