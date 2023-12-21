@@ -1,0 +1,10 @@
+{
+	"name": "yellow stone",
+	"buildVisibility": "shown",
+	"category": "logic",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "yellow-stone-vent",
+"buildCostMultiplier": "0",
+}
