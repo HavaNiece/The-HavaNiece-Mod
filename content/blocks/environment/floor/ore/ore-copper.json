@@ -1,0 +1,10 @@
+{
+	"name": "copper",
+	"buildVisibility": "shown",
+	"category": "effect",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "darksand",
+"buildCostMultiplier": "0",
+}
