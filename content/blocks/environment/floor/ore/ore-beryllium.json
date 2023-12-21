@@ -5,6 +5,6 @@
 	"placeableLiquid": "true",
   "requirements": [
   ],
-  "research": "yellow-stone-vent",
+  "research": "yellow-stone",
 "buildCostMultiplier": "0",
 }
