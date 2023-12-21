@@ -1,0 +1,10 @@
+{
+	"name": "coal",
+	"buildVisibility": "shown",
+	"category": "effect",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "ore-lead",
+"buildCostMultiplier": "0",
+}
