@@ -1,0 +1,10 @@
+{
+	"name": "beryllium",
+	"buildVisibility": "shown",
+	"category": "effect",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "yellow-stone-vent",
+"buildCostMultiplier": "0",
+}
