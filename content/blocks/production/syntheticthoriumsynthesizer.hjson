@@ -6,7 +6,7 @@ description:
 Synthesizes [#BA00D6]Synthetic Thorium[] via the power of...
 
 power?
-Produces water as a by-product
+Produces liquid ice as a by-product.
   '''
 size: 3
 buildCostMultiplier: 0
@@ -36,4 +36,4 @@ category: crafting
 research: syntheticthorium
 sync: true
 outputItem: syntheticthorium/2
-outputLiquid: water/0.5
+outputLiquid: liquidice/1
