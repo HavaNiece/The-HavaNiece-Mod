@@ -2,6 +2,7 @@
 	"name": "yellow stone wall",
 	"description": "Wall.",
 	"alwaysReplace": true,
+        "buildCostMultiplier": 0,
 	"health": 100,
 	"destructible": false,
 	"buildVisibility": "shown",
