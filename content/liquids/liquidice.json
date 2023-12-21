@@ -2,8 +2,8 @@ name: Liquid Ice
 temperature: -10
 flammability: 0
 viscosity: 0.35
-heatCapacity: 1.6
+heatCapacity: 5.0
 explosiveness: 1
 effect: freezing
 color: 00ffff
-research: water
+research: 
