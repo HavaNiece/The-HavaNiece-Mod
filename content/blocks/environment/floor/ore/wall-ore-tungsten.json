@@ -1,0 +1,10 @@
+{
+	"name": "wall tungsten",
+	"buildVisibility": "shown",
+	"category": "logic",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "wall-ore-beryllium",
+"buildCostMultiplier": "0",
+}
