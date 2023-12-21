@@ -1,0 +1,14 @@
+{
+	"name": "graphitic wall",
+	"description": "Wall.",
+	"alwaysReplace": true,
+	"health": 100,
+	"destructible": false,
+	"buildVisibility": "shown",
+	"category": "logic",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "ore-crystal-thorium",
+"buildCostMultiplier": "0",
+}
