@@ -5,5 +5,6 @@
 "requirements": [
 ],
 "research": "ap2",
+"placeableLiquid": "true",
 "buildCostMultiplier": "0",
 }
