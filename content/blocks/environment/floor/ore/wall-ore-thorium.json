@@ -1,0 +1,10 @@
+{
+	"name": "wall thorium",
+	"buildVisibility": "shown",
+	"category": "logic",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "wall-ore-tungsten",
+"buildCostMultiplier": "0",
+}
