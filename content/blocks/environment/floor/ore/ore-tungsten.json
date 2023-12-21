@@ -1,0 +1,10 @@
+{
+	"name": "tungsten",
+	"buildVisibility": "shown",
+	"category": "effect",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "ore-beryllium",
+"buildCostMultiplier": "0",
+}
