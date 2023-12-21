@@ -5,6 +5,6 @@
 	"placeableLiquid": "true",
   "requirements": [
   ],
-  "research": "oretitanium",
+  "research": "ore-titanium",
 "buildCostMultiplier": "0",
 }
