@@ -1,0 +1,10 @@
+{
+	"name": "lead",
+	"buildVisibility": "shown",
+	"category": "effect",
+	"placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "ore-copper",
+"buildCostMultiplier": "0",
+}
