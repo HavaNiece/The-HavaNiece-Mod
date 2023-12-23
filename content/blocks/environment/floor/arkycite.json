@@ -1,0 +1,10 @@
+{
+        "name": "arkycite",
+        "buildVisibility": "shown",
+        "category": "logic",
+        "placeableLiquid": "true",
+  "requirements": [
+  ],
+  "research": "graphitic-wall",
+"buildCostMultiplier": "0",
+}
