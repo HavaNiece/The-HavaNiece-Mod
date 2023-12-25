@@ -23,13 +23,6 @@ outputFacing: false
 ignoreLiquidFullness: true
 flameColor: C9A58F
 updateEffect: smeltsmoke
-consumes: {
-  power: 0.083334
-  items: {
-    items: [
-    ]
-  }
-}
 requirements: [
 ]
 category: crafting
