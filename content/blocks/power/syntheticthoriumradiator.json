@@ -9,6 +9,7 @@
   "size": 1,
   "powerProduction": 150,
   "itemCapacity": 20,
+  "itemDuration": 300
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -18,13 +19,13 @@
       {
         "type": "DrawGlowRegion",
         "suffix": "-glow",
-        "color": "66B1FFFF"
+        "color": "FFD5F9"
       }
     ]
   },
   "consumes": {
     "items": [
-      "syntheticthorium/0.2"
+      "syntheticthorium/1"
     ]
   },
   "requirements": [
