@@ -4,8 +4,8 @@
   "hardness": 1,
   "charge": 10,
   "radioactivity": 10,
-  "flammability": 5,
-  "explosiveness": 10,
+  "flammability": 10,
+  "explosiveness": 0,
   "color": "BA00D6",
   "research": {
     "parent": "syntheticthoriumsynthesizer",
