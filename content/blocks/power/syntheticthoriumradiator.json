@@ -1,0 +1,36 @@
+{
+  "type": "ConsumeGenerator",
+  "localizedName": "Synthetic Thorium Radiator",
+  "researchCostMultiplier": 0,
+  "description": "Converts the radiation from the highly radioactive synthetic thorium to generate power.",
+  "displayEfficiency": false,
+  "minEfficiency": 1,
+  "health": 2000,
+  "size": 1,
+  "powerProduction": 150,
+  "itemCapacity": 20,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "66B1FFFF"
+      }
+    ]
+  },
+  "consumes": {
+    "items": [
+      "syntheticthorium/0.2"
+    ]
+  },
+  "requirements": [
+  ],
+  "category": "power",
+  "research": "syntheticthorium",
+  "ambientSound": "hum",
+  "ambientSoundVolume": 0.25
+}
