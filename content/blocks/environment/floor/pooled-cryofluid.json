@@ -3,7 +3,7 @@
 	"buildVisibility": "shown",
 	"category": "effect",
 	"placeableLiquid": "true",
-	"liquidMultiplier" = "1"
+	"liquidMultiplier" = "1",
   "requirements": [
   ],
   "research": "pine",
