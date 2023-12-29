@@ -11,6 +11,7 @@
   "itemCapacity": 20,
   "itemDuration": 300
   "size": 3,
+  "placeableLiquid": "true",
   "consumes": {
     "items": [
       "syntheticthorium/1"
