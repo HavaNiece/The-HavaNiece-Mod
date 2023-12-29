@@ -35,13 +35,12 @@
       },
       {
         "type": "DrawLiquidRegion",
-        "drawLiquid": "liquid"
-        "suffix": "-liquid"
+        "drawLiquid": "water"
       },
       {
         "type": "DrawBlurSpin",
         "suffix": "-rotator",
-        "rotateSpeed": 7.5
+        "rotateSpeed": 4.2
       },
       {
         "type": "DrawDefault"
