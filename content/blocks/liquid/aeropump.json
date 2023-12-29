@@ -35,7 +35,8 @@
       },
       {
         "type": "DrawLiquidRegion",
-        "liquids": "liquid"
+        "drawLiquid": "liquid"
+        "suffix": "-liquid"
       },
       {
         "type": "DrawBlurSpin",
