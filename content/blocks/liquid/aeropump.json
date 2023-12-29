@@ -30,8 +30,12 @@
         "suffix": "-bottom"
       },
       {
+        "type": "DrawRegion",
+        "suffix": ""
+      },
+      {
         "type": "DrawLiquidRegion",
-        "drawLiquid": "water"
+        "suffix": "-liquid"
       },
       {
         "type": "DrawBlurSpin",
