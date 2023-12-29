@@ -1,0 +1,46 @@
+{
+  "type": "pump",
+  "name": "Aeropump",
+  "health": 2000,
+  "description": "A heavy liquid pump using power from an internal nuclear reactor to output an excessive amount of liquid.",
+  "researchCostMultiplier": 0,
+  "hasPower": false,
+  "hasLiquids": true,
+  "hasItems": true,
+  "liquidCapacity": 2500,
+  "itemCapacity": 20,
+  "itemDuration": 300
+  "size": 3,
+  "consumes": {
+    "items": [
+      "syntheticthorium/1"
+    ]
+  },
+  "pumpAmount": 40.0,
+  "category": "liquid",
+  "research": "liguidsourse",
+  "requirements": [
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidRegion",
+        "drawLiquid": "water"
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-rotator",
+        "rotateSpeed": 7.5
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "squareSprite": false
+}
