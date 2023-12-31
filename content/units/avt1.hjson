@@ -3,27 +3,28 @@ type: flying
 flying: true
 lowAltitude: true
 hitSize: 45
-health: 36000
-armor: 59
+health: 35000
+armor: 60
 range: 768
-speed: 3.0
-accel: 0.2
+speed: 3.6
+accel: 0.25
 drag: 0.085
 rotateSpeed: 5
 itemCapacity: 250
 outlines: false
+circleTarget: true
 engineSize: 0
 engines: [
   {
     x: 4
-    y: -32
-    rotation: 90
+    y: -36
+    rotation: -90
     radius: 3
   }
   {
     x: -4
-    y: -32
-    rotation: 90
+    y: -36
+    rotation: -90
     radius: 3
   }
 ]
@@ -37,17 +38,15 @@ weapons: [
     controllable: true
     layerOffset: 0.003
     bullet: {
-	damage: 55
-  speed: 6
-	lifetime: 120   
-        splashDamage: 35
+	damage: 60
+  speed: 18
+	lifetime: 44   
+        splashDamage: 50
         splashDamageRadius: 16
         splashDamagePierce: true
     width: 16
     height: 27
     hitsize: 12
-    backColor: F375DA
-    frontColor: F59AF3
 status: blasted
 absorbable: true
 reflectable: true
