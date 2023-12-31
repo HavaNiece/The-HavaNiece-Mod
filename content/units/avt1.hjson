@@ -43,8 +43,8 @@ weapons: [
         splashDamage: 35
         splashDamageRadius: 16
         splashDamagePierce: true
-    width: 4
-    height: 7
+    width: 8
+    height: 16
     hitsize: 8
     backColor: F375DA
     frontColor: F59AF3
