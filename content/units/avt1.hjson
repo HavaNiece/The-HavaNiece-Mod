@@ -18,13 +18,13 @@ engineSize: 0
 engines: [
   {
     x: 4
-    y: -36
+    y: -32
     rotation: -90
     radius: 3
   }
   {
     x: -4
-    y: -36
+    y: -32
     rotation: -90
     radius: 3
   }
