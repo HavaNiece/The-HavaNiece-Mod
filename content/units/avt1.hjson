@@ -19,8 +19,6 @@ engines: [
     y: -32
     rotation: 0
     radius: 4
-trailColor: dea568
-trailLength: 45
   }
   {
     x: -5
@@ -28,7 +26,6 @@ trailLength: 45
     rotation: 0
     radius: 3
   }
-trailLength: 45
 ]
 weapons: [
   {
