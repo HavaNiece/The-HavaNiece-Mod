@@ -5,40 +5,60 @@ lowAltitude: true
 hitSize: 45
 health: 36000
 armor: 59
+range: 768
 speed: 3.0
 accel: 0.2
 drag: 0.085
 rotateSpeed: 5
 itemCapacity: 250
 outlines: false
-engineOffset: 36
-engineSize: 3
-engineColor: dea568
+engineSize: 0
 engines: [
   {
     x: 5
     y: -32
-    rotation: 315
-    radius: 3
+    rotation: 0
+    radius: 4
 trailColor: dea568
 trailLength: 45
   }
   {
     x: -5
     y: -32
-    rotation: 225
+    rotation: 0
     radius: 3
+  }
 trailColor: dea568
 trailLength: 45
-  }
 ]
 weapons: [
   {
-    name: avt1
-    x: 0
+    name: GSh-30-1
+    x: 6
+    y: 10
+    reload: 10
     mirror: false
-    controllable: f
+    controllable: false
     layerOffset: 0.003
+    bullet: {
+	damage: 55
+  speed: 6
+	lifetime: 120   
+        splashDamage: 35
+        splashDamageRadius: 16
+        splashDamagePierce: true
+    width: 4
+    height: 7
+    hitsize: 8
+    backColor: F375DA
+    frontColor: F59AF3
+status: blasted
+absorbable: true
+reflectable: true
+hittable: true
+    pierce: true
+    pierceCap: 3
+    pierceBuilding: true
   }
   {
     x: 7.5
