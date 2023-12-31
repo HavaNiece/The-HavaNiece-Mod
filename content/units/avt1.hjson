@@ -15,16 +15,16 @@ outlines: false
 engineSize: 0
 engines: [
   {
-    x: 5
+    x: 4
     y: -32
     rotation: 90
     radius: 3
   }
   {
-    x: -5
+    x: -4
     y: -32
-    rotation: -90
-    radius: 4
+    rotation: 90
+    radius: 3
   }
 ]
 weapons: [
@@ -33,6 +33,7 @@ weapons: [
     y: 10
     reload: 10
     mirror: false
+    baseRotation: 0
     controllable: false
     layerOffset: 0.003
     bullet: {
