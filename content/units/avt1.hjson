@@ -31,7 +31,7 @@ weapons: [
   {
     x: 6
     y: 10
-    reload: 10
+    reload: 4
     mirror: false
     baseRotation: 0
     controllable: true
@@ -43,9 +43,9 @@ weapons: [
         splashDamage: 35
         splashDamageRadius: 16
         splashDamagePierce: true
-    width: 8
-    height: 16
-    hitsize: 8
+    width: 16
+    height: 27
+    hitsize: 12
     backColor: F375DA
     frontColor: F59AF3
 status: blasted
