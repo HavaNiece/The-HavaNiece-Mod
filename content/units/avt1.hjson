@@ -1,3 +1,4 @@
+localizedName: "Jet"
 type: flying
 flying: true
 lowAltitude: true
@@ -31,7 +32,7 @@ trailColor: dea568
 trailLength: 35
 weapons: [
   {
-    name: protect
+    name: avt1
     x: 0
     mirror: false
     controllable: f
@@ -119,44 +120,6 @@ weapons: [
         smokeSize: 4
       }
     }
-  }
-]
-abilities: [
-  {
-    type: StatusFieldAbility
-    range: -1
-    reload: 5
-    effectY: 0.5
-    parentizeEffects: true
-    activeEffect: [
-      {
-        followParent: true
-        rotWithParent: true
-        useRotation: false
-        baseRotation: -45
-        lifetime: 16
-        length: 0
-        spin: 6
-        region: allure-protect-turbine
-        layer: 90.0001
-        sizeFrom: 4
-        sizeTo: 4
-      }
-      {
-        followParent: false
-        length: 24
-        layer: 50
-        particles: 3
-        lifetime: 60
-        interp: pow3Out
-        sizeInterp: pow3In
-        sizeFrom: 3
-        sizeTo: 0
-        colorFrom: 787878
-        colorTo: 78787888
-      }
-    ]
-    effect: none
   }
 ]
 fogRadius: 70
