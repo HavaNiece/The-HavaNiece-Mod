@@ -1,12 +1,12 @@
-localizedName: "Jet"
+localizedName: "Mig-29K"
 type: flying
 flying: true
 lowAltitude: true
-hitSize: 70
-health: 25000
-armor: 25
+hitSize: 45
+health: 36000
+armor: 59
 speed: 3.0
-accel: 0.1
+accel: 0.2
 drag: 0.085
 rotateSpeed: 5
 itemCapacity: 250
@@ -17,19 +17,21 @@ engineColor: dea568
 engines: [
   {
     x: 5
-    y: -10
+    y: -32
     rotation: 315
-    radius: 2
+    radius: 3
+trailColor: dea568
+trailLength: 45
   }
   {
     x: -5
-    y: -10
+    y: -32
     rotation: 225
-    radius: 2
+    radius: 3
+trailColor: dea568
+trailLength: 45
   }
 ]
-trailColor: dea568
-trailLength: 35
 weapons: [
   {
     name: avt1
