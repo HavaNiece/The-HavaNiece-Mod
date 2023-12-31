@@ -34,6 +34,7 @@ weapons: [
     x: 6
     y: 10
     reload: 4
+    shootCone: 90
     mirror: false
     baseRotation: 0
     controllable: true
