@@ -7,7 +7,7 @@ armor: 25
 speed: 3.2
 accel: 0.4
 drag: 0.08
-rotateSpeed: 1
+rotateSpeed: 5
 itemCapacity: 200
 outlines: false
 engineOffset: 9
@@ -151,80 +151,6 @@ abilities: [
         interp: pow3Out
         sizeInterp: pow3In
         sizeFrom: 3
-        sizeTo: 0
-        colorFrom: 787878
-        colorTo: 78787888
-      }
-    ]
-    effect: none
-  }
-  {
-    type: StatusFieldAbility
-    range: -1
-    reload: 5
-    effectX: 10
-    effectY: -5.5
-    parentizeEffects: true
-    activeEffect: [
-      {
-        followParent: true
-        rotWithParent: true
-        useRotation: false
-        baseRotation: -45
-        lifetime: 16
-        length: 0
-        spin: 6
-        region: allure-guard-turbine
-        layer: 90.0001
-        sizeFrom: 2.5
-        sizeTo: 2.5
-      }
-      {
-        followParent: false
-        length: 16
-        layer: 50
-        particles: 3
-        lifetime: 60
-        interp: pow3Out
-        sizeInterp: pow3In
-        sizeFrom: 2
-        sizeTo: 0
-        colorFrom: 787878
-        colorTo: 78787888
-      }
-    ]
-    effect: none
-  }
-  {
-    type: StatusFieldAbility
-    range: -1
-    reload: 5
-    effectX: -10
-    effectY: -5.5
-    parentizeEffects: true
-    activeEffect: [
-      {
-        followParent: true
-        rotWithParent: true
-        useRotation: false
-        baseRotation: -45
-        lifetime: 16
-        length: 0
-        spin: 6
-        region: allure-guard-turbine
-        layer: 90.0001
-        sizeFrom: 2.5
-        sizeTo: 2.5
-      }
-      {
-        followParent: false
-        length: 16
-        layer: 50
-        particles: 3
-        lifetime: 60
-        interp: pow3Out
-        sizeInterp: pow3In
-        sizeFrom: 2
         sizeTo: 0
         colorFrom: 787878
         colorTo: 78787888
