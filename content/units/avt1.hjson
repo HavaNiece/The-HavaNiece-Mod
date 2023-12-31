@@ -13,6 +13,7 @@ rotateSpeed: 5
 itemCapacity: 250
 outlines: false
 circleTarget: true
+faceTarget:false
 engineSize: 0
 engines: [
   {
