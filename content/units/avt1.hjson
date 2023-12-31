@@ -34,7 +34,7 @@ weapons: [
     reload: 10
     mirror: false
     baseRotation: 0
-    controllable: false
+    controllable: true
     layerOffset: 0.003
     bullet: {
 	damage: 55
