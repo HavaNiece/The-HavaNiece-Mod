@@ -2,44 +2,44 @@ type: flying
 flying: true
 lowAltitude: true
 hitSize: 24
-health: 3200
-armor: 8
-speed: 1
-accel: 0.1
-drag: 0.02
-rotateSpeed: 3
-itemCapacity: 0
+health: 25000
+armor: 25
+speed: 3.2
+accel: 0.4
+drag: 0.08
+rotateSpeed: 1
+itemCapacity: 200
 outlines: false
 engineOffset: 9
-engineSize: 4
+engineSize: 3
 engineColor: dea568
 engines: [
   {
-    x: 6.5
-    y: -10.5
+    x: 5
+    y: -10
     rotation: 315
     radius: 2
   }
   {
-    x: -6.5
-    y: -10.5
+    x: -5
+    y: -10
     rotation: 225
     radius: 2
   }
 ]
 trailColor: dea568
-trailLength: 20
+trailLength: 35
 weapons: [
   {
     name: protect
     x: 0
     mirror: false
-    controllable: false
+    controllable: f
     layerOffset: 0.003
   }
   {
     x: 7.5
-    reload: 80
+    reload: 25
     shootSound: missileSmall
     baseRotation: -20
     shootCone: 35
@@ -233,6 +233,6 @@ abilities: [
     effect: none
   }
 ]
-fogRadius: 30
+fogRadius: 70
 envEnabled: -1
 envDisabled: 0
