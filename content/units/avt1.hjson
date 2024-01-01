@@ -70,22 +70,22 @@ lightningDamage: 95
     shootCone: 360
     bullet: {
       damage: 90
-      speed: 30
-      lifetime: 30
+      speed: 12
+      lifetime: 73
       splashDamage: 300
-      splashDamageRadius: 56
+      splashDamageRadius: 80
       scaledSplashDamage: true
       homingPower: 0.4
       homingRange: 296
-      homingDelay: 20
+      homingDelay: 12
       hitSound: dullExplosion
       sprite: missile-large
-      width: 12
-      height: 24
+      width: 20
+      height: 37
       frontColor: ffffff
       backColor: dea568
       trailColor: dea568
-      trailWidth: 3
+      trailWidth: 8
       trailLength: 13
       bulletInterval: 5
       intervalBullets: 2
@@ -94,7 +94,7 @@ lightningDamage: 95
       intervalBullet: {
         speed: 2
         lifetime: 45
-        damage: 2
+        damage: 30
         splashDamage: 25
         splashDamageRadius: 24
         scaledSplashDamage: true
