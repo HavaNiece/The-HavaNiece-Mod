@@ -6,7 +6,7 @@ hitSize: 45
 health: 35000
 armor: 60
 range: 880
-speed: 5.8
+speed: 0.9
 accel: 0.35
 drag: 0.15
 rotateSpeed: 3.5
@@ -40,6 +40,8 @@ weapons: [
     baseRotation: 0
     controllable: true
     layerOffset: 0.003
+rotate: true
+rotateSpeed: 1.333
     bullet: {
 	damage: 205
   speed: 18
@@ -50,8 +52,6 @@ weapons: [
     width: 16
     height: 27
     hitsize: 12
-rotate: true
-rotateSpeed: 1.333
 inaccuracy: 2
 status: blasted
 absorbable: true
@@ -85,7 +85,7 @@ weapons: [
                         shootCone: 360
                         mirror: false
                         reload: 1
-                        deathExplosionEffect: Fx.massiveExplosion;
+                        deathExplosionEffect: Fx.massiveExplosion
                         shootOnDeath: true
                             collidesAir: true
                             buildingDamageMultiplier: 5
