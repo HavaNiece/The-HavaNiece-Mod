@@ -31,6 +31,7 @@ engines: [
 ]
 weapons: [
   {
+    name: "GSh-30-1 autocannon"
     x: 6
     y: 10
     reload: 4
@@ -49,6 +50,8 @@ weapons: [
     width: 16
     height: 27
     hitsize: 12
+rotate: true
+rotateSpeed: 1.333
 inaccuracy: 2
 status: blasted
 absorbable: true
@@ -62,35 +65,28 @@ lightningDamage: 95
     pierceBuilding: true
   }
 }
-//spawnUnit = new MissileUnitType("scathe-missile"){{
-                    speed = 4.6f;
-                    maxRange = 6f;
-                    lifetime = 60f * 5.5f;
-                    outlineColor = Pal.darkOutline;
-                    engineColor = trailColor = Pal.redLight;
-                    engineLayer = Layer.effect;
-                    engineSize = 3.1f;
-                    engineOffset = 10f;
-                    rotateSpeed = 0.25f;
-                    trailLength = 18;
-                    missileAccelTime = 50f;
-                    lowAltitude = true;
-                    loopSound = Sounds.missileTrail;
-                    loopSoundVolume = 0.6f;
-                    deathSound = Sounds.largeExplosion;
-                    targetAir = false;
-
-                    fogRadius = 6f;
-
-                    health = 210;
-
-                    weapons.add(new Weapon(){{
-                        shootCone = 360f;
-                        mirror = false;
-                        reload = 1f;
-                        deathExplosionEffect = Fx.massiveExplosion;
-                        shootOnDeath = true;
-                        shake = 10f;
+{
+spawnUnit: "scathe-missle"
+speed: 4.6
+lifetime: 180
+                    engineSize: 3.1
+                    engineOffset: 10
+                    rotateSpeed: 20
+                    trailLength: 20
+                    missileAccelTime: 12
+                    lowAltitude: true
+                    deathSound: Sounds.largeExplosion
+                    targetAir: true
+                    fogRadius: 90
+                    health: 1200
+//idk what I'm doing
+weapons: [
+{
+                        shootCone: 360
+                        mirror: false
+                        reload: 1
+                        deathExplosionEffect: Fx.massiveExplosion;
+                        shootOnDeath: true
                         bullet = new ExplosionBulletType(1500f, 65f){{
                             hitColor = Pal.redLight;
                             shootEffect = new MultiEffect(Fx.massiveExplosion, Fx.scatheExplosion, Fx.scatheLight, new WaveEffect(){{
@@ -99,14 +95,14 @@ lightningDamage: 95
                                 sizeTo = 130f;
                             }});
 
-                            collidesAir = false;
-                            buildingDamageMultiplier = 0.25f;
+                            collidesAir: true
+                            buildingDamageMultiplier: 5
 
-                            ammoMultiplier = 1f;
-                            fragLifeMin = 0.1f;
-                            fragBullets = 7;
+                            ammoMultiplier: 1
+                            fragLifeMin: 0.1
+                            fragBullets: 7
                             fragBullet = new ArtilleryBulletType(3.4f, 32){{
-                                buildingDamageMultiplier = 0.3f;
+                                buildingDamageMultiplier: 2.5
                                 drag = 0.02f;
                                 hitEffect = Fx.massiveExplosion;
                                 despawnEffect = Fx.scatheSlash;
