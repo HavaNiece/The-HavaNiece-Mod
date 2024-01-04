@@ -87,45 +87,28 @@ weapons: [
                         reload: 1
                         deathExplosionEffect: Fx.massiveExplosion;
                         shootOnDeath: true
-                        bullet = new ExplosionBulletType(1500f, 65f){{
-                            hitColor = Pal.redLight;
-                            shootEffect = new MultiEffect(Fx.massiveExplosion, Fx.scatheExplosion, Fx.scatheLight, new WaveEffect(){{
-                                lifetime = 10f;
-                                strokeFrom = 4f;
-                                sizeTo = 130f;
-                            }});
-
                             collidesAir: true
                             buildingDamageMultiplier: 5
-
                             ammoMultiplier: 1
-                            fragLifeMin: 0.1
-                            fragBullets: 7
-                            fragBullet = new ArtilleryBulletType(3.4f, 32){{
                                 buildingDamageMultiplier: 2.5
-                                drag = 0.02f;
-                                hitEffect = Fx.massiveExplosion;
-                                despawnEffect = Fx.scatheSlash;
-                                knockback = 0.8f;
-                                lifetime = 23f;
-                                width = height = 18f;
-                                collidesTiles = false;
-                                splashDamageRadius = 40f;
-                                splashDamage = 160f;
-                                backColor = trailColor = hitColor = Pal.redLight;
-                                frontColor = Color.white;
-                                smokeEffect = Fx.shootBigSmoke2;
-                                despawnShake = 7f;
-                                lightRadius = 30f;
-                                lightColor = Pal.redLight;
-                                lightOpacity = 0.5f;
-
-                                trailLength = 20;
-                                trailWidth = 3.5f;
-                                trailEffect = Fx.none;
-                            }};
-                        }};
-//                    }});
+                                drag: 0.02
+                                hitEffect: Fx.massiveExplosion
+                                despawnEffect: Fx.scatheSlash
+                                knockback: 0.8
+                                lifetime: 800
+                                width: 18
+                                height: 18
+                                collidesTiles: false
+                                splashDamageRadius: 40
+                                splashDamage: 160
+                                smokeEffect: Fx.shootBigSmoke2
+                                despawnShake: 7
+                                lightRadius: 30
+                                trailLength: 20
+                                trailWidth: 3.5
+                                trailEffect: none
+                            }
+}
   {
     x: 7.5
     reload: 60
