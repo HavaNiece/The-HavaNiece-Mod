@@ -31,11 +31,10 @@ engines: [
 ]
 weapons: [
   {
-    name: "GSh-30-1 autocannon"
     x: 6
     y: 10
     reload: 4
-    shootCone: 360
+    shootCone: 30
     mirror: false
     baseRotation: 0
     controllable: true
@@ -58,58 +57,14 @@ absorbable: true
 reflectable: true
 hittable: true
 lightning: 7
-lightningLength: 7
+lightningLength: 4
 lightningDamage: 95
+buildingDamageMultiplier: 2.5
     pierce: true
     pierceCap: 4
     pierceBuilding: true
   }
 }
-{
-spawnUnit: "scathe-missle"
-speed: 4.6
-lifetime: 180
-                    engineSize: 3.1
-                    engineOffset: 10
-                    rotateSpeed: 20
-                    trailLength: 20
-                    missileAccelTime: 12
-                    lowAltitude: true
-                    deathSound: Sounds.largeExplosion
-                    targetAir: true
-                    fogRadius: 90
-                    health: 1200
-//idk what I'm doing
-weapons: [
-{
-                        shootCone: 360
-                        mirror: false
-                        reload: 1
-                        deathExplosionEffect: Fx.massiveExplosion
-                        shootOnDeath: true
-                            collidesAir: true
-                            buildingDamageMultiplier: 5
-                            ammoMultiplier: 1
-                                buildingDamageMultiplier: 2.5
-                                drag: 0.02
-                                hitEffect: Fx.massiveExplosion
-                                despawnEffect: Fx.scatheSlash
-                                knockback: 0.8
-                                lifetime: 800
-                                width: 18
-                                height: 18
-                                collidesTiles: false
-                                splashDamageRadius: 40
-                                splashDamage: 160
-                                smokeEffect: Fx.shootBigSmoke2
-                                despawnShake: 7
-                                lightRadius: 30
-                                trailLength: 20
-                                trailWidth: 3.5
-                                trailEffect: none
-                            }
-]
-   }
   {
     x: 7.5
     reload: 60
@@ -117,13 +72,14 @@ weapons: [
     baseRotation: 0
     shootCone: 360
     bullet: {
-      damage: 90
+      damage: 400
+      status: sapped
+      statusDuration: 600
       speed: 12
       lifetime: 73
       splashDamage: 300
       splashDamageRadius: 80
       scaledSplashDamage: true
-      homingPower: 0.4
       homingRange: 296
       homingDelay: 12
       hitSound: dullExplosion
