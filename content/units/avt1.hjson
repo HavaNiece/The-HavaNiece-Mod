@@ -108,7 +108,6 @@ weapons: [
                                 trailWidth: 3.5
                                 trailEffect: none
                             }
-}
   {
     x: 7.5
     reload: 60
