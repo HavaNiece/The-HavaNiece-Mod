@@ -151,6 +151,9 @@ buildingDamageMultiplier: 2.5
   }
 ]
 research: itemsourse
+requirements: [
+copper/1
+]
 fogRadius: 560
 envEnabled: -1
 envDisabled: 0
