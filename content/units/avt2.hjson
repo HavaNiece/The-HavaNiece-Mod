@@ -5,7 +5,8 @@ lowAltitude: true
 hitSize: 56
 health: 75000
 armor: 125
-range: 320
+range: 48
+aimDst: 45
 speed: 0.8
 accel: 0.5
 drag: 0.1
