@@ -6,7 +6,6 @@ hitSize: 56
 health: 75000
 armor: 125
 range: 48
-aimDst: 45
 speed: 0.8
 accel: 0.5
 drag: 0.1
@@ -46,7 +45,7 @@ rotateSpeed: 2
     bullet: {
 	damage: 205
   speed: 18
-	lifetime: 44   
+	lifetime: 22   
         splashDamage: 120
         splashDamageRadius: 24
         splashDamagePierce: true
