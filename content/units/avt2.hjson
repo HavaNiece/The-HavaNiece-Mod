@@ -16,13 +16,13 @@ faceTarget:false
 engineSize: 0
 engines: [
   {
-    x: 5.5
+    x: -5
     y: -22
     rotation: 315
     radius: 3
   }
   {
-    x: -5.5
+    x: 5
     y: -22
     rotation: 225
     radius: 3
