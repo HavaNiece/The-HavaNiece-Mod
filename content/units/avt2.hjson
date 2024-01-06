@@ -11,9 +11,11 @@ accel: 0.5
 drag: 0.1
 rotateSpeed: 1.5
 itemCapacity: 250
+payloadCapacity: 40
 outlines: true
 faceTarget:false
-engineSize: 0
+engineSize: 6.6
+engineOffset: -40
 engines: [
   {
     x: -10
