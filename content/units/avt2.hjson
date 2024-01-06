@@ -16,14 +16,14 @@ faceTarget:false
 engineSize: 0
 engines: [
   {
-    x: -5
-    y: -22
+    x: -22
+    y: -76
     rotation: 315
     radius: 3
   }
   {
-    x: 5
-    y: -22
+    x: 22
+    y: -76
     rotation: 225
     radius: 3
   }
@@ -31,7 +31,7 @@ engines: [
 weapons: [
   {
     x: 6
-    y: -22
+    y: 80
     reload: 4
     shootCone: 30
     mirror: false
