@@ -30,7 +30,7 @@ engines: [
 ]
 weapons: [
   {
-    x: 
+    x: 0
     y: 21
     reload: 4
     shootCone: 30
