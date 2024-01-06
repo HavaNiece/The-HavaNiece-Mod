@@ -64,7 +64,6 @@ buildingDamageMultiplier: 2.5
     pierceBuilding: true
   }
 }
-  }
 ]
 research: avt1
 fogRadius: 560
