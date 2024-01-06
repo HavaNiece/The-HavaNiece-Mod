@@ -16,22 +16,22 @@ faceTarget:false
 engineSize: 0
 engines: [
   {
-    x: -22
-    y: -76
+    x: -12
+    y: -44
     rotation: 315
-    radius: 3
+    radius: 4
   }
   {
-    x: 22
-    y: -76
+    x: 12
+    y: -44
     rotation: 225
-    radius: 3
+    radius: 4
   }
 ]
 weapons: [
   {
     x: 6
-    y: 80
+    y: 21
     reload: 4
     shootCone: 30
     mirror: false
@@ -39,7 +39,7 @@ weapons: [
     controllable: true
     layerOffset: 0.003
 rotate: true
-rotateSpeed: 1.333
+rotateSpeed: 2
     bullet: {
 	damage: 205
   speed: 18
