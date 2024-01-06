@@ -1,0 +1,72 @@
+localizedName: "Supreme"
+type: flying
+flying: true
+lowAltitude: true
+hitSize: 56
+health: 75000
+armor: 125
+range: 
+speed: 0.9
+accel: 0.35
+drag: 0.15
+rotateSpeed: 3.5
+itemCapacity: 250
+outlines: false
+faceTarget:false
+engineSize: 0
+engines: [
+  {
+    x: 4
+    y: -32
+    rotation: -90
+    radius: 3
+  }
+  {
+    x: -4
+    y: -32
+    rotation: -90
+    radius: 3
+  }
+]
+weapons: [
+  {
+    x: 6
+    y: 10
+    reload: 4
+    shootCone: 30
+    mirror: false
+    baseRotation: 0
+    controllable: true
+    layerOffset: 0.003
+rotate: true
+rotateSpeed: 1.333
+    bullet: {
+	damage: 205
+  speed: 18
+	lifetime: 44   
+        splashDamage: 120
+        splashDamageRadius: 24
+        splashDamagePierce: true
+    width: 16
+    height: 27
+    hitsize: 12
+inaccuracy: 2
+status: blasted
+absorbable: true
+reflectable: true
+hittable: true
+lightning: 7
+lightningLength: 4
+lightningDamage: 95
+buildingDamageMultiplier: 2.5
+    pierce: true
+    pierceCap: 4
+    pierceBuilding: true
+  }
+}
+  }
+]
+research: avt1
+fogRadius: 560
+envEnabled: -1
+envDisabled: 0
