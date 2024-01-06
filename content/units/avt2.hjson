@@ -5,27 +5,27 @@ lowAltitude: true
 hitSize: 56
 health: 75000
 armor: 125
-range: 
-speed: 0.9
-accel: 0.35
-drag: 0.15
-rotateSpeed: 3.5
+range: 320
+speed: 0.3
+accel: 0.05
+drag: 0.1
+rotateSpeed: 0.5
 itemCapacity: 250
-outlines: false
+outlines: true
 faceTarget:false
 engineSize: 0
 engines: [
   {
-    x: 4
-    y: -32
-    rotation: -90
-    radius: 3
+    x: 22
+    y: -74
+    rotation: 315
+    radius: 5
   }
   {
-    x: -4
-    y: -32
-    rotation: -90
-    radius: 3
+    x: -22
+    y: -74
+    rotation: 225
+    radius: 5
   }
 ]
 weapons: [
