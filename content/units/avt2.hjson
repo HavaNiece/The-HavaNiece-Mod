@@ -6,26 +6,26 @@ hitSize: 56
 health: 75000
 armor: 125
 range: 320
-speed: 0.3
-accel: 0.05
+speed: 0.8
+accel: 0.5
 drag: 0.1
-rotateSpeed: 0.5
+rotateSpeed: 1.5
 itemCapacity: 250
 outlines: true
 faceTarget:false
 engineSize: 0
 engines: [
   {
-    x: 7
-    y: -10.5
+    x: 5.5
+    y: -22
     rotation: 315
-    radius: 5
+    radius: 3
   }
   {
-    x: -7
+    x: -5.5
     y: -22
     rotation: 225
-    radius: 5
+    radius: 3
   }
 ]
 weapons: [
