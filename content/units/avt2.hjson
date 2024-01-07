@@ -32,6 +32,7 @@ engines: [
 ]
 weapons: [
   {
+    name: "generalpurposegun"
     x: 0
     y: 21
     reload: 4
