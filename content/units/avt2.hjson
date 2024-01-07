@@ -15,7 +15,7 @@ payloadCapacity: 40
 outlines: true
 faceTarget:false
 engineSize: 6.6
-engineOffset: -40
+engineOffset: 36
 engines: [
   {
     x: -10
@@ -44,8 +44,8 @@ rotate: true
 rotateSpeed: 2
     bullet: {
 	damage: 205
-  speed: 18
-	lifetime: 22   
+  speed: 15
+	lifetime: 30   
         splashDamage: 120
         splashDamageRadius: 24
         splashDamagePierce: true
