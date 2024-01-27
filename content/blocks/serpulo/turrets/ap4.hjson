@@ -1,0 +1,62 @@
+type: ItemTurret
+name: Triot
+description: A 3 barreled upgrade to the duo.
+range: 160
+size: 2
+health: 750
+targetGround: true
+targetAir: true
+rotateSpeed: 2.8
+recoil: 1
+reload: 13
+ammoUseEffect: casing1
+shoot: {
+        type: ShootAlternate
+        barrels: 3
+        spread: 3.75
+    }
+ammoTypes: {
+copper: {
+    type: BasicBulletType
+    damage: 11
+    speed: 3.5
+    lifetime: 46
+    width: 7
+    height: 9
+    ammoMultiplier: 3
+    }
+}
+drawer: {
+    type: DrawTurret
+    parts: [
+      {
+      type: RegionPart
+      suffix: -barrel1
+      x: 0
+      y: 3.5
+      moveY: -2
+      progress: recoil
+      }
+      {
+      type: RegionPart
+      suffix: -barrel2
+      x: 3.75
+      y: 2.5
+      moveY: -2
+      progress: recoil
+      }
+      {
+      type: RegionPart
+      suffix: -barrel3
+      x: -3.75
+      y: 2.5
+      moveY: -2
+      progress: recoil
+      }
+]
+}
+requirements: [
+        copper/120
+        lead/80
+        titanium/20
+]
