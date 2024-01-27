@@ -1,6 +1,6 @@
 type: ItemTurret
 name: P-4
-description: A 3 barreled upgrade to the duo.
+description: Prototype number 4.
 range: 160
 size: 2
 health: 750
