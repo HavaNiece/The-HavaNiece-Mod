@@ -85,7 +85,7 @@ rotateSpeed: 4
   {
     name: "generalpurposegun"
     shootY: 15
-    x: 9
+    x: -14
     y: 21
     reload: 4
     shootCone: 30
