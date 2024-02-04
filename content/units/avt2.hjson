@@ -5,7 +5,7 @@ lowAltitude: true
 hitSize: 56
 health: 75000
 armor: 125
-range: 48
+range: 384
 speed: 0.8
 accel: 0.5
 drag: 0.1
@@ -82,6 +82,7 @@ buildingDamageMultiplier: 2.5
     shootCone: 360
       bullet: {
 	damage: 125
+        maxRange: 64
   }
 },
   {
