@@ -70,22 +70,23 @@ buildingDamageMultiplier: 2.5
 },
   {
     name: "pointdefenseturret"
-    x: 24
-    y: -25
+    x: 0
+    y: 25
     reload: 1
     mirror: false
     baseRotation: 0
     layerOffset: 0.003
 rotate: true
 rotateSpeed: 4
-      PointBulletType: {
+      bullet: {
 	damage: 125
+        maxRange: 64
   }
 },
   {
     name: "generalpurposegun"
     shootY: 15
-    x: 0
+    x: 32
     y: -27
     reload: 4
     shootCone: 30
