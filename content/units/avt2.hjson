@@ -69,7 +69,7 @@ buildingDamageMultiplier: 2.5
   }
 },
   {
-    name: "pointdefenseturret"
+    type: PointDefenseWeapon
     x: 0
     y: 25
     reload: 1
@@ -87,7 +87,7 @@ rotateSpeed: 4
     name: "generalpurposegun"
     shootY: 15
     x: 32
-    y: -27
+    y: -20
     reload: 4
     shootCone: 30
     mirror: true
