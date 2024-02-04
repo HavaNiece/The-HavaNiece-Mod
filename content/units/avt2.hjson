@@ -15,6 +15,7 @@ payloadCapacity: 40
 outlines: true
 targetAir: true
 targetGround: true
+aimDst: 384
 faceTarget:false
 engineSize: 6.6
 engineOffset: 36
