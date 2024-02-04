@@ -70,7 +70,7 @@ buildingDamageMultiplier: 2.5
 },
   {
     name: "pointdefenseturret"
-    x: 0
+    x: 24
     y: -25
     reload: 1
     mirror: false
