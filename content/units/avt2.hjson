@@ -34,7 +34,7 @@ weapons: [
   {
     name: "generalpurposegun"
     shootY: 15
-    x: 0
+    x: 9
     y: 21
     reload: 4
     shootCone: 30
@@ -46,22 +46,59 @@ rotate: true
 rotateSpeed: 2
     bullet: {
 	damage: 205
-  speed: 15
-	lifetime: 30   
+  speed: 12.5
+	lifetime: 32   
         splashDamage: 120
         splashDamageRadius: 24
         splashDamagePierce: true
     width: 16
     height: 27
     hitsize: 12
-inaccuracy: 2
+inaccuracy: 1.75
 status: blasted
 absorbable: true
 reflectable: true
 hittable: true
-lightning: 7
+lightning: 3
 lightningLength: 4
-lightningDamage: 95
+lightningDamage: 90
+buildingDamageMultiplier: 2.5
+    pierce: true
+    pierceCap: 4
+    pierceBuilding: true
+  }
+},
+  {
+    name: "generalpurposegun"
+    shootY: 15
+    x: -9
+    y: 21
+    reload: 4
+    shootCone: 30
+    mirror: false
+    baseRotation: 0
+    controllable: true
+    layerOffset: 0.003
+rotate: true
+rotateSpeed: 2
+    bullet: {
+	damage: 205
+  speed: 12.5
+	lifetime: 32   
+        splashDamage: 120
+        splashDamageRadius: 24
+        splashDamagePierce: true
+    width: 16
+    height: 27
+    hitsize: 12
+inaccuracy: 1.75
+status: blasted
+absorbable: true
+reflectable: true
+hittable: true
+lightning: 3
+lightningLength: 4
+lightningDamage: 90
 buildingDamageMultiplier: 2.5
     pierce: true
     pierceCap: 4
