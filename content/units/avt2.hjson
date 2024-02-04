@@ -38,7 +38,7 @@ weapons: [
     y: 21
     reload: 4
     shootCone: 30
-    mirror: false
+    mirror: true
     baseRotation: 0
     controllable: true
     layerOffset: 0.003
@@ -85,11 +85,11 @@ rotateSpeed: 4
   {
     name: "generalpurposegun"
     shootY: 15
-    x: -14
-    y: 21
+    x: 0
+    y: -27
     reload: 4
     shootCone: 30
-    mirror: false
+    mirror: true
     baseRotation: 0
     controllable: true
     layerOffset: 0.003
