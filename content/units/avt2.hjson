@@ -1,4 +1,4 @@
-localizedName: "Supreme"
+localizedName: "Heavy Gunship"
 type: flying
 flying: true
 lowAltitude: true
@@ -33,6 +33,7 @@ engines: [
 weapons: [
   {
     name: "generalpurposegun"
+    shooty: 15
     x: 0
     y: 21
     reload: 4
