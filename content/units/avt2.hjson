@@ -13,6 +13,8 @@ rotateSpeed: 1.5
 itemCapacity: 250
 payloadCapacity: 40
 outlines: true
+targetAir: true
+targetGround: true
 faceTarget:false
 engineSize: 6.6
 engineOffset: 36
@@ -76,11 +78,9 @@ buildingDamageMultiplier: 2.5
     mirror: false
     baseRotation: 0
     layerOffset: 0.003
-rotate: true
-rotateSpeed: 4
+    shootCone: 360
       bullet: {
 	damage: 125
-        maxRange: 64
   }
 },
   {
