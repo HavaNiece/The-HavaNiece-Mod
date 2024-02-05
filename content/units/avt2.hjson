@@ -72,11 +72,11 @@ buildingDamageMultiplier: 2.5
   }
 },
   {
-    type: PointDefenseWeapon
+    type: "PointDefenseWeapon"
+    name: "james"
     x: 0
     y: 25
     mirror: false
-    baseRotation: 0
     layerOffset: 0.003
       bullet: {
 	damage: 125
