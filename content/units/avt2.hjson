@@ -75,14 +75,11 @@ buildingDamageMultiplier: 2.5
     type: PointDefenseWeapon
     x: 0
     y: 25
-    reload: 1
     mirror: false
     baseRotation: 0
     layerOffset: 0.003
-    shootCone: 360
       bullet: {
 	damage: 125
-        maxRange: 64
   }
 },
   {
