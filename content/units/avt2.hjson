@@ -121,6 +121,8 @@ buildingDamageMultiplier: 2.5
 },
 ]
 research: avt1
+requiremnts:[
+]
 fogRadius: 560
 envEnabled: -1
 envDisabled: 0
